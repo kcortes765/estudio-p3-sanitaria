@@ -5,7 +5,67 @@ const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
 
-// Progress functions
+// ============ QUESTION SETS ============
+
+export async function loadQuestionSets() {
+    const { data, error } = await supabase
+        .from('question_sets')
+        .select('id, name, created_at')
+        .order('created_at', { ascending: false });
+
+    if (error) {
+        console.error('Error loading question sets:', error);
+        return [];
+    }
+    return data || [];
+}
+
+export async function loadQuestionSet(id) {
+    const { data, error } = await supabase
+        .from('question_sets')
+        .select('*')
+        .eq('id', id)
+        .single();
+
+    if (error) {
+        console.error('Error loading question set:', error);
+        return null;
+    }
+    return data;
+}
+
+export async function saveQuestionSet(id, name, questions) {
+    const { data, error } = await supabase
+        .from('question_sets')
+        .upsert({ id, name, questions }, { onConflict: 'id' })
+        .select()
+        .single();
+
+    if (error) {
+        console.error('Error saving question set:', error);
+        return null;
+    }
+    return data;
+}
+
+export async function deleteQuestionSet(id) {
+    // Also delete progress for this set
+    await supabase.from('progress').delete().eq('filename', id);
+
+    const { error } = await supabase
+        .from('question_sets')
+        .delete()
+        .eq('id', id);
+
+    if (error) {
+        console.error('Error deleting question set:', error);
+        return false;
+    }
+    return true;
+}
+
+// ============ PROGRESS ============
+
 export async function loadProgress(filename) {
     const { data, error } = await supabase
         .from('progress')
@@ -17,7 +77,6 @@ export async function loadProgress(filename) {
         return {};
     }
 
-    // Convert array to object keyed by question_id
     const progressObj = {};
     data?.forEach(item => {
         progressObj[item.question_id] = {

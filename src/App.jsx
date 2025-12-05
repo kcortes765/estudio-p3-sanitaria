@@ -15,12 +15,20 @@ import {
 } from 'lucide-react';
 import './index.css';
 
-// Data imports
+// Data imports (default sets)
 import modulosData from './data/modulos.json';
 import sanitariaData from './data/sanitaria.json';
 
 // Supabase
-import { loadProgress, updateProgress as updateProgressDB, resetProgress } from './supabase';
+import {
+  loadProgress,
+  updateProgress as updateProgressDB,
+  resetProgress,
+  loadQuestionSets,
+  loadQuestionSet,
+  saveQuestionSet,
+  deleteQuestionSet
+} from './supabase';
 
 // Views
 import Dashboard from './views/Dashboard';
@@ -35,30 +43,32 @@ export function useApp() {
   return useContext(AppContext);
 }
 
-// Normalize column names
+// Normalize column names from XLSX
 function normalizeQuestion(q, index) {
   return {
-    numero: q['N°'] || q.numero || q.N || index + 1,
-    seccion: q['Sección'] || q.seccion || q.Seccion || '',
-    tema: q['Tema'] || q.tema || '',
-    pregunta: q['Pregunta'] || q.pregunta || '',
-    respuesta_super_corta: q['Respuesta super corta'] || q.respuesta_super_corta || '',
-    respuesta_corta: q['Respuesta corta'] || q.respuesta_corta || '',
-    respuesta_normal: q['Respuesta normal'] || q.respuesta_normal || ''
+    numero: q['N°'] || q.numero || q.N || q['Nº'] || index + 1,
+    seccion: q['Sección'] || q.seccion || q.Seccion || q.SECCION || '',
+    tema: q['Tema'] || q.tema || q.TEMA || '',
+    pregunta: q['Pregunta'] || q.pregunta || q.PREGUNTA || '',
+    respuesta_super_corta: q['Respuesta super corta'] || q.respuesta_super_corta || q['Respuesta Super Corta'] || '',
+    respuesta_corta: q['Respuesta corta'] || q.respuesta_corta || q['Respuesta Corta'] || '',
+    respuesta_normal: q['Respuesta normal'] || q.respuesta_normal || q['Respuesta Normal'] || ''
   };
 }
 
-// File configurations
-const FILES = {
-  'FAQs_Modulos_P3': {
+// Default built-in sets
+const DEFAULT_SETS = {
+  'modulos_p3': {
+    id: 'modulos_p3',
     name: 'FAQs Módulos P3',
-    data: modulosData.map((q, i) => normalizeQuestion(q, i)),
-    color: '#2E7D32'
+    questions: modulosData.map((q, i) => normalizeQuestion(q, i)),
+    isBuiltIn: true
   },
-  'FAQs_Sanitaria_P3': {
+  'sanitaria_p3': {
+    id: 'sanitaria_p3',
     name: 'FAQs Sanitaria P3',
-    data: sanitariaData.map((q, i) => normalizeQuestion(q, i)),
-    color: '#4472C4'
+    questions: sanitariaData.map((q, i) => normalizeQuestion(q, i)),
+    isBuiltIn: true
   }
 };
 
@@ -75,7 +85,7 @@ function ThemeToggle({ theme, setTheme }) {
 }
 
 // Sidebar
-function Sidebar({ collapsed, setCollapsed, currentFile, setCurrentFile, isMobile, closeMobile }) {
+function Sidebar({ collapsed, setCollapsed, files, currentFile, setCurrentFile, isMobile, closeMobile }) {
   const navItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
     { path: '/study', icon: BookOpen, label: 'Estudio' },
@@ -102,14 +112,16 @@ function Sidebar({ collapsed, setCollapsed, currentFile, setCurrentFile, isMobil
           </button>
         </div>
 
-        {!collapsed && (
+        {!collapsed && files.length > 0 && (
           <div className="file-selector">
             <select
               value={currentFile}
               onChange={(e) => setCurrentFile(e.target.value)}
             >
-              {Object.entries(FILES).map(([key, file]) => (
-                <option key={key} value={key}>{file.name}</option>
+              {files.map(f => (
+                <option key={f.id} value={f.id}>
+                  {f.name} ({f.questions?.length || '?'})
+                </option>
               ))}
             </select>
           </div>
@@ -153,7 +165,8 @@ function AppContent() {
   const [collapsed, setCollapsed] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
-  const [currentFile, setCurrentFile] = useState('FAQs_Modulos_P3');
+  const [files, setFiles] = useState([]);
+  const [currentFile, setCurrentFile] = useState('');
   const [questions, setQuestions] = useState([]);
   const [progress, setProgress] = useState({});
   const [loading, setLoading] = useState(true);
@@ -172,14 +185,63 @@ function AppContent() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // Load questions and progress when file changes
+  // Load all question sets on mount
   useEffect(() => {
-    async function load() {
+    async function loadAllSets() {
       setLoading(true);
       try {
-        const fileData = FILES[currentFile];
-        setQuestions(fileData.data);
+        // Load custom sets from Supabase
+        const customSets = await loadQuestionSets();
 
+        // Combine defaults + custom
+        const allFiles = [
+          ...Object.values(DEFAULT_SETS),
+          ...customSets.map(s => ({ ...s, isBuiltIn: false }))
+        ];
+
+        setFiles(allFiles);
+
+        // Set default selection
+        const savedFile = localStorage.getItem('currentFile');
+        if (savedFile && allFiles.find(f => f.id === savedFile)) {
+          setCurrentFile(savedFile);
+        } else if (allFiles.length > 0) {
+          setCurrentFile(allFiles[0].id);
+        }
+      } catch (error) {
+        console.error('Error loading sets:', error);
+        setFiles(Object.values(DEFAULT_SETS));
+        setCurrentFile('modulos_p3');
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadAllSets();
+  }, []);
+
+  // Load questions when file changes
+  useEffect(() => {
+    async function loadCurrentSet() {
+      if (!currentFile) return;
+      setLoading(true);
+
+      try {
+        localStorage.setItem('currentFile', currentFile);
+
+        // Check if it's a built-in set
+        const builtIn = DEFAULT_SETS[currentFile];
+        if (builtIn) {
+          setQuestions(builtIn.questions);
+        } else {
+          // Load from Supabase
+          const set = await loadQuestionSet(currentFile);
+          if (set) {
+            const normalized = set.questions.map((q, i) => normalizeQuestion(q, i));
+            setQuestions(normalized);
+          }
+        }
+
+        // Load progress
         const savedProgress = await loadProgress(currentFile);
         setProgress(savedProgress);
       } catch (error) {
@@ -188,7 +250,7 @@ function AppContent() {
         setLoading(false);
       }
     }
-    load();
+    loadCurrentSet();
   }, [currentFile]);
 
   // Update progress
@@ -217,14 +279,55 @@ function AppContent() {
     }
   };
 
+  // Add new question set
+  const addQuestionSet = async (name, questionsData) => {
+    const id = 'set_' + Date.now();
+    const normalized = questionsData.map((q, i) => normalizeQuestion(q, i));
+
+    const saved = await saveQuestionSet(id, name, normalized);
+    if (saved) {
+      const newSet = { id, name, questions: normalized, isBuiltIn: false };
+      setFiles(prev => [...prev, newSet]);
+      setCurrentFile(id);
+      return true;
+    }
+    return false;
+  };
+
+  // Delete question set
+  const removeQuestionSet = async (id) => {
+    const success = await deleteQuestionSet(id);
+    if (success) {
+      setFiles(prev => prev.filter(f => f.id !== id));
+      if (currentFile === id) {
+        setCurrentFile(files[0]?.id || 'modulos_p3');
+      }
+      return true;
+    }
+    return false;
+  };
+
+  // Refresh file list
+  const refreshFiles = async () => {
+    const customSets = await loadQuestionSets();
+    const allFiles = [
+      ...Object.values(DEFAULT_SETS),
+      ...customSets.map(s => ({ ...s, isBuiltIn: false }))
+    ];
+    setFiles(allFiles);
+  };
+
   const contextValue = {
-    files: Object.keys(FILES).map(k => ({ name: k, ...FILES[k] })),
+    files,
     currentFile,
     setCurrentFile,
     questions,
     progress,
     updateProgress: handleUpdateProgress,
     resetProgress: handleResetProgress,
+    addQuestionSet,
+    removeQuestionSet,
+    refreshFiles,
     loading,
     theme,
     setTheme,
@@ -237,6 +340,7 @@ function AppContent() {
         <Sidebar
           collapsed={isMobile ? !mobileOpen : collapsed}
           setCollapsed={setCollapsed}
+          files={files}
           currentFile={currentFile}
           setCurrentFile={setCurrentFile}
           isMobile={isMobile}
