@@ -1,0 +1,1586 @@
+[
+  {
+    "N°": 1,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Definiciones Básicas",
+    "Pregunta": "Defina Solución Verdadera.",
+    "Respuesta super corta": "Mezcla homogénea con partículas < 1 nm.",
+    "Respuesta corta": "Mezcla homogénea donde el soluto (fase dispersa) tiene tamaño molecular o iónico (< 1 nm) y no sedimenta.",
+    "Respuesta normal": "Sistema homogéneo donde las partículas dispersas son de tamaño molecular o iónico (menor a 1 nm), no son visibles al microscopio, no sedimentan y no dispersan la luz."
+  },
+  {
+    "N°": 2,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Definiciones Básicas",
+    "Pregunta": "Defina Suspensión.",
+    "Respuesta super corta": "Mezcla heterogénea con partículas > 1000 nm.",
+    "Respuesta corta": "Mezcla heterogénea con partículas grandes (> 1000 nm) que sedimentan por gravedad si están en reposo.",
+    "Respuesta normal": "Sistema heterogéneo formado por un sólido en polvo o pequeñas partículas no solubles (mayores a 1 micrómetro) dispersas en un líquido, las cuales son visibles y sedimentan si se dejan en reposo."
+  },
+  {
+    "N°": 3,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Definiciones Básicas",
+    "Pregunta": "Defina Coloide (o Dispersión Coloidal).",
+    "Respuesta super corta": "Sistema heterogéneo con partículas entre 1 y 1000 nm.",
+    "Respuesta corta": "Sistema intermedio donde las partículas (1 nm - 1 µm) no sedimentan naturalmente pero dispersan la luz (Efecto Tyndall).",
+    "Respuesta normal": "Sistema heterogéneo formado por una fase dispersante y una fase dispersa con partículas muy finas (1 a 1000 nm). Son termodinámicamente inestables pero cinéticamente estables debido a cargas eléctricas que impiden su aglomeración."
+  },
+  {
+    "N°": 4,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Definiciones Básicas",
+    "Pregunta": "Defina Fase Dispersa.",
+    "Respuesta super corta": "Son las partículas distribuidas en el medio.",
+    "Respuesta corta": "Es la sustancia (similar al soluto) que se encuentra distribuida en forma de partículas dentro de otra.",
+    "Respuesta normal": "Corresponde a las partículas (sólidas, líquidas o gaseosas) que se encuentran distribuidas discontinuamente en el seno de la fase dispersante."
+  },
+  {
+    "N°": 5,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Definiciones Básicas",
+    "Pregunta": "Defina Fase Dispersante.",
+    "Respuesta super corta": "Es el medio fluido que contiene las partículas.",
+    "Respuesta corta": "Es la sustancia (generalmente fluido) en la cual se distribuyen las partículas dispersas.",
+    "Respuesta normal": "Es el medio continuo (usualmente agua en ingeniería sanitaria) donde se encuentran suspendidas o disueltas las partículas de la fase dispersa."
+  },
+  {
+    "N°": 6,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Física de Partículas",
+    "Pregunta": "¿Qué factor físico (dimensión) determina si una mezcla es solución, coloide o suspensión?",
+    "Respuesta super corta": "El tamaño de la partícula.",
+    "Respuesta corta": "El diámetro de las partículas dispersas determina el tipo de mezcla.",
+    "Respuesta normal": "El tamaño de la partícula es el factor clave: < 1 nm es solución; entre 1 nm y 1000 nm (1 µm) es coloide; y > 1000 nm se considera suspensión."
+  },
+  {
+    "N°": 7,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Fenómenos Físicos",
+    "Pregunta": "Describa el Efecto Tyndall.",
+    "Respuesta super corta": "Dispersión de la luz por coloides.",
+    "Respuesta corta": "Fenómeno donde las partículas coloidales dispersan un haz de luz, haciéndolo visible al atravesar la mezcla.",
+    "Respuesta normal": "Es la propiedad óptica de los coloides de dispersar la luz visible. Permite distinguir una dispersión coloidal (que se ve turbia o lechosa ante la luz) de una solución verdadera (que es transparente)."
+  },
+  {
+    "N°": 8,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Fenómenos Físicos",
+    "Pregunta": "Describa el Movimiento Browniano.",
+    "Respuesta super corta": "Movimiento errático de partículas.",
+    "Respuesta corta": "Movimiento aleatorio y en zigzag de las partículas coloidales debido al choque con moléculas del solvente.",
+    "Respuesta normal": "Es el movimiento errático, aleatorio y constante de las partículas coloidales suspendidas en un fluido, causado por las colisiones con las moléculas del medio dispersante, lo que ayuda a mantenerlas en suspensión."
+  },
+  {
+    "N°": 9,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Estabilidad",
+    "Pregunta": "Defina Estabilidad Coloidal.",
+    "Respuesta super corta": "Resistencia de las partículas a aglomerarse.",
+    "Respuesta corta": "Capacidad de los coloides de mantenerse separados y no sedimentar debido a fuerzas de repulsión.",
+    "Respuesta normal": "Condición en la que las partículas coloidales permanecen dispersas indefinidamente debido al equilibrio entre fuerzas de repulsión electrostática y atracción, impidiendo su aglomeración natural."
+  },
+  {
+    "N°": 10,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Fuerzas Intermoleculares",
+    "Pregunta": "Defina Fuerzas de Van der Waals (en el contexto de partículas).",
+    "Respuesta super corta": "Fuerzas de atracción entre partículas.",
+    "Respuesta corta": "Fuerzas de atracción de corto alcance que tienden a unir las partículas coloidales.",
+    "Respuesta normal": "Son fuerzas de atracción intermoleculares que actúan cuando las partículas están muy próximas. Son fundamentales para la coagulación, ya que si superan a la repulsión, permiten la formación de flóculos."
+  },
+  {
+    "N°": 11,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Fuerzas Intermoleculares",
+    "Pregunta": "Defina Fuerza de Repulsión Electrostática.",
+    "Respuesta super corta": "Fuerza que separa partículas de igual carga.",
+    "Respuesta corta": "Fuerza que impide que los coloides se junten debido a que poseen la misma carga eléctrica (generalmente negativa).",
+    "Respuesta normal": "Es la fuerza generada por la interacción de las dobles capas eléctricas de partículas con igual carga. Esta fuerza mantiene la estabilidad del coloide impidiendo la aglomeración."
+  },
+  {
+    "N°": 12,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Modelos Teóricos",
+    "Pregunta": "Explique el Modelo de Doble Capa Eléctrica.",
+    "Respuesta super corta": "Distribución de iones alrededor de un coloide.",
+    "Respuesta corta": "Modelo que describe una capa fija de iones adherida a la partícula (Stern) y una capa difusa exterior.",
+    "Respuesta normal": "Modelo que explica la estabilidad coloidal mediante dos capas: la Capa de Stern (iones adsorbidos firmemente a la superficie) y la Capa Difusa (iones móviles que equilibran la carga). La interacción entre estas capas define el potencial zeta."
+  },
+  {
+    "N°": 13,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Parámetros Eléctricos",
+    "Pregunta": "¿Qué es el Potencial Zeta?",
+    "Respuesta super corta": "Potencial eléctrico en el plano de corte.",
+    "Respuesta corta": "Medida de la magnitud de la repulsión electrostática entre partículas; indicador de estabilidad.",
+    "Respuesta normal": "Es el potencial eléctrico medido en el plano de corte (límite entre la capa de Stern y la capa difusa). Un valor cercano a cero indica que las fuerzas de repulsión son débiles, facilitando la coagulación."
+  },
+  {
+    "N°": 14,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Parámetros Eléctricos",
+    "Pregunta": "¿Qué es el Punto Isoeléctrico?",
+    "Respuesta super corta": "pH donde la carga neta es cero.",
+    "Respuesta corta": "Valor de pH en el cual la carga superficial neta de la partícula es nula.",
+    "Respuesta normal": "Es el valor de pH específico en el cual el potencial zeta de una partícula coloidal es cero, lo que significa que no hay repulsión eléctrica y la coagulación es más fácil (máxima inestabilidad)."
+  },
+  {
+    "N°": 15,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Tipos de Partículas",
+    "Pregunta": "Defina partícula Hidrófila.",
+    "Respuesta super corta": "Partícula afín al agua.",
+    "Respuesta corta": "Coloide que tiene gran afinidad por el agua, formando una capa de hidratación estable.",
+    "Respuesta normal": "Partículas 'amantes del agua' que estabilizan su suspensión mediante una capa de moléculas de agua adsorbidas en su superficie, dificultando su desestabilización."
+  },
+  {
+    "N°": 16,
+    "Sección": "Naturaleza de las Mezclas",
+    "Tema": "Tipos de Partículas",
+    "Pregunta": "Defina partícula Hidrófoba.",
+    "Respuesta super corta": "Partícula que repele el agua.",
+    "Respuesta corta": "Coloide que no tiene afinidad por el agua y su estabilidad depende solo de la carga eléctrica.",
+    "Respuesta normal": "Partículas 'que repelen el agua'. No forman capas de hidratación significativas y su estabilidad en suspensión depende casi exclusivamente de la repulsión electrostática entre ellas."
+  },
+  {
+    "N°": 17,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Defina pH.",
+    "Respuesta super corta": "Medida de acidez o alcalinidad.",
+    "Respuesta corta": "Logaritmo negativo de la concentración de iones hidrógeno; indica si el agua es ácida o básica.",
+    "Respuesta normal": "Potencial de Hidrógeno. Es una medida de la actividad de los iones hidrógeno (H+) en solución. En potabilización es crítico para la eficiencia de la coagulación y desinfección (Rango norma: 6.5 - 8.5)."
+  },
+  {
+    "N°": 18,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Defina Alcalinidad.",
+    "Respuesta super corta": "Capacidad del agua para neutralizar ácidos.",
+    "Respuesta corta": "Suma de componentes (bicarbonatos, carbonatos, hidróxidos) que amortiguan cambios de pH.",
+    "Respuesta normal": "Capacidad del agua para neutralizar ácidos, debida principalmente a la presencia de bicarbonatos, carbonatos e hidróxidos. Es esencial para la reacción de hidrólisis de los coagulantes metálicos."
+  },
+  {
+    "N°": 19,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Defina Dureza Total.",
+    "Respuesta super corta": "Concentración de Calcio y Magnesio.",
+    "Respuesta corta": "Suma de las concentraciones de cationes metálicos polivalentes, principalmente Ca+2 y Mg+2, expresada como CaCO3.",
+    "Respuesta normal": "Es la medida del contenido total de iones metálicos divalentes, principalmente calcio y magnesio, expresada en mg/L de carbonato de calcio (CaCO3). Se asocia a la formación de incrustaciones (sarro) o dificultad para hacer espuma."
+  },
+  {
+    "N°": 20,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Diferencie entre Dureza Cálcica y Dureza Magnésica.",
+    "Respuesta super corta": "Una es por Ca, la otra por Mg.",
+    "Respuesta corta": "La dureza cálcica mide iones de calcio y la magnésica mide iones de magnesio.",
+    "Respuesta normal": "La dureza cálcica se debe exclusivamente a la concentración de iones Ca+2, mientras que la magnésica se debe a los iones Mg+2. La suma de ambas constituye la dureza total del agua."
+  },
+  {
+    "N°": 21,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Físico-Química",
+    "Pregunta": "Defina Sólidos Disueltos Totales (TDS).",
+    "Respuesta super corta": "Total de sales disueltas en agua.",
+    "Respuesta corta": "Suma de todos los minerales, sales y metales disueltos en el agua; se mide en mg/L o ppm.",
+    "Respuesta normal": "Medida del contenido combinado de todas las sustancias inorgánicas y orgánicas contenidas en un líquido en forma molecular, ionizada o micro-granular (suspendida). En agua potable el límite suele ser 1500 mg/L (NCh 409)."
+  },
+  {
+    "N°": 22,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Físico-Química",
+    "Pregunta": "Defina Conductividad Eléctrica.",
+    "Respuesta super corta": "Capacidad del agua para conducir electricidad.",
+    "Respuesta corta": "Medida indirecta de la cantidad de iones disueltos (sales) en el agua.",
+    "Respuesta normal": "Capacidad de una solución acuosa para transportar corriente eléctrica. Es directamente proporcional a la concentración de sólidos disueltos totales (TDS) y temperatura."
+  },
+  {
+    "N°": 23,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Físico-Química",
+    "Pregunta": "Defina Turbiedad (Turbidez).",
+    "Respuesta super corta": "Falta de transparencia del agua.",
+    "Respuesta corta": "Medida de la dispersión de la luz causada por partículas suspendidas y coloidales.",
+    "Respuesta normal": "Propiedad óptica del agua que causa que la luz se disperse y absorba en lugar de transmitirse, debido a la presencia de partículas en suspensión (arcilla, limo, coloides). Se mide en UNT (Unidades Nefelométrica de Turbidez)."
+  },
+  {
+    "N°": 24,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Físico-Química",
+    "Pregunta": "Diferencie entre Color Verdadero y Color Aparente.",
+    "Respuesta super corta": "Verdadero: disuelto; Aparente: con suspensión.",
+    "Respuesta corta": "Color verdadero es el del agua filtrada; color aparente incluye partículas suspendidas.",
+    "Respuesta normal": "El Color Verdadero es el causado únicamente por sustancias disueltas (se mide tras filtrar la muestra). El Color Aparente es el color de la muestra original sin filtrar, influenciado por la turbiedad y sólidos suspendidos."
+  },
+  {
+    "N°": 25,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Defina Oxidación Química.",
+    "Respuesta super corta": "Pérdida de electrones de una sustancia.",
+    "Respuesta corta": "Proceso donde se añaden oxidantes (O3, Cl2, KMnO4) para modificar contaminantes.",
+    "Respuesta normal": "Proceso mediante el cual una sustancia pierde electrones. En tratamiento de agua, se usa para remover hierro, manganeso, materia orgánica, o destruir patógenos mediante agentes oxidantes fuertes."
+  },
+  {
+    "N°": 26,
+    "Sección": "Parámetros de Calidad",
+    "Tema": "Química del Agua",
+    "Pregunta": "Defina Compuestos Organoclorados.",
+    "Respuesta super corta": "Compuestos orgánicos con cloro.",
+    "Respuesta corta": "Subproductos formados por la reacción del cloro con materia orgánica natural.",
+    "Respuesta normal": "Compuestos químicos orgánicos que contienen átomos de cloro. En potabilización, son subproductos indeseados de la desinfección (como trihalometanos) que pueden ser cancerígenos."
+  },
+  {
+    "N°": 27,
+    "Sección": "Tipos de Agua",
+    "Tema": "Clasificación por Sales",
+    "Pregunta": "Defina Agua Dulce (Fresca).",
+    "Respuesta super corta": "TDS < 1.500 ppm (aprox).",
+    "Respuesta corta": "Agua con baja concentración de sales disueltas, apta para potabilización convencional.",
+    "Respuesta normal": "Agua con una concentración de sólidos disueltos totales (TDS) generalmente inferior a 1.500 mg/L. Es la fuente principal para potabilización convencional según NCh 409."
+  },
+  {
+    "N°": 28,
+    "Sección": "Tipos de Agua",
+    "Tema": "Clasificación por Sales",
+    "Pregunta": "Defina Agua Salobre (según rango TDS).",
+    "Respuesta super corta": "TDS entre 1.500 y 15.000 ppm.",
+    "Respuesta corta": "Agua con salinidad intermedia entre agua dulce y agua de mar (ej. estuarios, pozos costeros).",
+    "Respuesta normal": "Agua que tiene más sales disueltas que el agua dulce, pero menos que el agua de mar. Su rango de TDS suele estar entre 1.500 y 15.000 - 20.000 mg/L (ppm). Requiere desalinización (ej. RO) para consumo."
+  },
+  {
+    "N°": 29,
+    "Sección": "Tipos de Agua",
+    "Tema": "Clasificación por Sales",
+    "Pregunta": "Defina Agua de Mar (según rango TDS).",
+    "Respuesta super corta": "TDS aprox 35.000 ppm.",
+    "Respuesta corta": "Agua proveniente del océano con alta salinidad estándar.",
+    "Respuesta normal": "Agua con una alta concentración de sales disueltas, típicamente en el rango de 30.000 a 45.000 mg/L (ppm), siendo 35.000 ppm el estándar promedio global."
+  },
+  {
+    "N°": 30,
+    "Sección": "Tipos de Agua",
+    "Tema": "Clasificación por Sales",
+    "Pregunta": "Defina Salmuera (Brine).",
+    "Respuesta super corta": "Agua con TDS > 45.000 ppm.",
+    "Respuesta corta": "Concentrado de sales rechazado en procesos de desalinización o presente en salares.",
+    "Respuesta normal": "Agua con una concentración de sales muy elevada, superior a la del agua de mar (> 45.000 ppm). En desalinización, corresponde al flujo de rechazo donde se concentran las sales separadas del agua producto."
+  },
+  {
+    "N°": 31,
+    "Sección": "Tipos de Agua",
+    "Tema": "Aguas Residuales",
+    "Pregunta": "¿Qué es un RIL (Residuo Industrial Líquido)?",
+    "Respuesta super corta": "Agua residual de procesos industriales.",
+    "Respuesta corta": "Efluente líquido generado por una actividad industrial, distinto a las aguas servidas domésticas.",
+    "Respuesta normal": "Residuo Industrial Líquido. Son aguas de desecho resultantes de procesos industriales, cuyas características físicas y químicas dependen del rubro y requieren tratamiento específico antes de su descarga (regulado por DS 90, DS 609, etc.)."
+  },
+  {
+    "N°": 32,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Cuál es el objetivo de la norma NCh 409/1?",
+    "Respuesta super corta": "Establecer requisitos de calidad del agua potable.",
+    "Respuesta corta": "Fija los límites máximos permitidos de contaminantes en el agua para consumo humano.",
+    "Respuesta normal": "Norma Chilena Oficial que establece los requisitos de calidad (físicos, químicos, microbiológicos y radiactivos) que debe cumplir el agua potable en todo el territorio nacional."
+  },
+  {
+    "N°": 33,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Qué regula la norma NCh 409/2?",
+    "Respuesta super corta": "El muestreo del agua potable.",
+    "Respuesta corta": "Establece los procedimientos, frecuencias y puntos de muestreo para verificar la calidad del agua potable.",
+    "Respuesta normal": "Norma que regula los procedimientos de inspección y muestreo, incluyendo frecuencia, preservación y transporte de muestras, para verificar el cumplimiento de los requisitos de calidad de la NCh 409/1."
+  },
+  {
+    "N°": 34,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Para qué sirve la norma NCh 1333?",
+    "Respuesta super corta": "Requisitos de agua para diferentes usos.",
+    "Respuesta corta": "Define la calidad del agua para riego, recreación, vida acuática y estética.",
+    "Respuesta normal": "Norma que fija los requisitos de calidad del agua para diferentes usos: riego, bebida de animales, recreación (con y sin contacto) y vida acuática."
+  },
+  {
+    "N°": 35,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Qué regula el Decreto Supremo 90?",
+    "Respuesta super corta": "Descargas a aguas superficiales.",
+    "Respuesta corta": "Norma de emisión para la regulación de contaminantes asociados a descargas de residuos líquidos a aguas marinas y continentales.",
+    "Respuesta normal": "Establece la norma de emisión para la regulación de contaminantes asociados a las descargas de residuos líquidos a aguas marinas y continentales superficiales (ríos, lagos, mar)."
+  },
+  {
+    "N°": 36,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Qué regula el Decreto Supremo 46?",
+    "Respuesta super corta": "Descargas a aguas subterráneas.",
+    "Respuesta corta": "Norma de emisión de residuos líquidos a aguas subterráneas (infiltración).",
+    "Respuesta normal": "Establece la norma de emisión de residuos líquidos a aguas subterráneas, regulando la descarga a través del suelo hacia acuíferos (zonas saturadas)."
+  },
+  {
+    "N°": 37,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Qué establece la Resolución SISS N° 666?",
+    "Respuesta super corta": "Tiempos de contacto cloro-agua.",
+    "Respuesta corta": "Fija los tiempos mínimos de contacto para asegurar la desinfección con cloro antes de la distribución.",
+    "Respuesta normal": "Resolución que fija el tiempo mínimo de contacto cloro-agua en servicios públicos de agua potable, dependiendo del pH y temperatura, para asegurar una desinfección efectiva."
+  },
+  {
+    "N°": 38,
+    "Sección": "Normas y Decretos",
+    "Tema": "Normativa Chilena",
+    "Pregunta": "¿Qué limitación tienen las normas NCh 1365 y 1366 respecto a la tecnología actual?",
+    "Respuesta super corta": "Son antiguas y no incluyen desalación.",
+    "Respuesta corta": "Están desactualizadas y no contemplan tecnologías modernas como la ósmosis inversa.",
+    "Respuesta normal": "Son normas antiguas (años 70) enfocadas en terminología y generalidades de plantas convencionales, por lo que no regulan ni contemplan tecnologías actuales de tratamiento como la desalinización."
+  },
+  {
+    "N°": 39,
+    "Sección": "Límites Críticos",
+    "Tema": "Calidad del Agua",
+    "Pregunta": "¿Cuál es el límite máximo de Turbiedad en agua potable?",
+    "Respuesta super corta": "2 UNT.",
+    "Respuesta corta": "La turbiedad media mensual debe ser menor o igual a 2 UNT (NCh 409/1).",
+    "Respuesta normal": "Según NCh 409/1, la turbiedad media mensual debe ser ≤ 2 UNT. Excepcionalmente se permite hasta 4 UNT en muestras puntuales (no más del 5% o 1 muestra si son <20). Límite absoluto: 20 UNT."
+  },
+  {
+    "N°": 40,
+    "Sección": "Límites Críticos",
+    "Tema": "Calidad del Agua",
+    "Pregunta": "¿Cuál es el rango de Cloro Libre Residual obligatorio en la red?",
+    "Respuesta super corta": "0,2 a 2,0 mg/L.",
+    "Respuesta corta": "Mínimo 0,2 mg/L y máximo 2,0 mg/L en cualquier punto de la red (NCh 409/1).",
+    "Respuesta normal": "La norma exige una concentración de cloro libre residual mínima de 0,2 mg/L para asegurar protección contra recontaminación, y un máximo de 2,0 mg/L por razones organolépticas y de salud."
+  },
+  {
+    "N°": 41,
+    "Sección": "Límites Críticos",
+    "Tema": "Calidad del Agua",
+    "Pregunta": "¿Cuál es el límite máximo de Arsénico permitido?",
+    "Respuesta super corta": "0,01 mg/L.",
+    "Respuesta corta": "El límite máximo es 0,01 mg/L (según NCh 409/1 actualizada).",
+    "Respuesta normal": "El límite máximo permitido para arsénico en agua potable es de 0,01 mg/L. Anteriormente era 0,05 mg/L, pero se redujo por su toxicidad crónica (normativa OMS adoptada por Chile)."
+  },
+  {
+    "N°": 42,
+    "Sección": "Límites Críticos",
+    "Tema": "Calidad del Agua",
+    "Pregunta": "¿Cuál es el límite de Coliformes Fecales (E. Coli) en agua potable?",
+    "Respuesta super corta": "Ausencia (0).",
+    "Respuesta corta": "Debe haber ausencia de Escherichia coli en 100 ml de muestra.",
+    "Respuesta normal": "El agua potable debe estar exenta de Escherichia coli (0 UFC/100 ml o ausencia en 100 ml). Su presencia indica contaminación fecal reciente y riesgo de patógenos."
+  },
+  {
+    "N°": 43,
+    "Sección": "Límites Críticos",
+    "Tema": "Calidad del Agua",
+    "Pregunta": "¿Cuál es el límite de Sulfatos para evitar corrosión?",
+    "Respuesta super corta": "500 mg/L (norma 409).",
+    "Respuesta corta": "La NCh 409 establece un límite de 500 mg/L para sulfatos.",
+    "Respuesta normal": "El límite máximo para sulfatos según NCh 409/1 es de 500 mg/L (aunque la autoridad puede autorizar más). Valores altos pueden causar efectos laxantes y corrosión en tuberías de hormigón/metal."
+  },
+  {
+    "N°": 44,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Definiciones",
+    "Pregunta": "Defina Tratamiento Preliminar.",
+    "Respuesta super corta": "Remoción de sólidos grandes y flotantes.",
+    "Respuesta corta": "Etapa inicial para remover sólidos gruesos, arenas y grasas para proteger los equipos posteriores.",
+    "Respuesta normal": "Conjunto de operaciones físicas (y a veces químicas) destinadas a acondicionar el agua bruta eliminando sólidos de gran tamaño, arenas y materias flotantes que podrían dañar bombas o válvulas en etapas siguientes."
+  },
+  {
+    "N°": 45,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Procesos Físicos",
+    "Pregunta": "Defina Cribado (Screening).",
+    "Respuesta super corta": "Paso por rejas o mallas.",
+    "Respuesta corta": "Proceso físico de retención de sólidos grandes mediante rejas, rejillas o tamices.",
+    "Respuesta normal": "Operación unitaria que consiste en hacer pasar el agua a través de rejas o mallas con aberturas determinadas para retener sólidos de tamaño superior a la abertura (ramas, plásticos, peces, etc.)."
+  },
+  {
+    "N°": 46,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Diseño",
+    "Pregunta": "¿Por qué las Rejas se diseñan inclinadas?",
+    "Respuesta super corta": "Para facilitar la limpieza.",
+    "Respuesta corta": "Facilita la limpieza manual o mecánica y aumenta el área efectiva de paso.",
+    "Respuesta normal": "Se diseñan inclinadas (generalmente 60°-80°) para facilitar la extracción de los residuos retenidos (limpieza) y para ofrecer una mayor superficie de paso al flujo, reduciendo la velocidad y pérdida de carga."
+  },
+  {
+    "N°": 47,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Procesos Físicos",
+    "Pregunta": "Defina Desarenador.",
+    "Respuesta super corta": "Tanque para sedimentar arena.",
+    "Respuesta corta": "Unidad diseñada para remover partículas discretas pesadas (arenas, gravas) por sedimentación.",
+    "Respuesta normal": "Cámara o canal diseñado para reducir la velocidad del agua de modo que las partículas pesadas e inorgánicas (arenas, gravas > 0.2 mm) sedimenten, pero manteniendo en suspensión la materia orgánica más ligera."
+  },
+  {
+    "N°": 48,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Sedimentación",
+    "Pregunta": "Defina Partícula Discreta.",
+    "Respuesta super corta": "Partícula que no cambia de forma/tamaño.",
+    "Respuesta corta": "Partícula que sedimenta individualmente sin cambiar sus propiedades durante la caída.",
+    "Respuesta normal": "Partícula que mantiene su identidad individual (forma, tamaño, densidad) durante el proceso de sedimentación y no interactúa significativamente con otras partículas (no flocula)."
+  },
+  {
+    "N°": 49,
+    "Sección": "Tratamiento Preliminar",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Aforo (medición de caudal).",
+    "Respuesta super corta": "Medición de la cantidad de agua.",
+    "Respuesta corta": "Proceso de medir el caudal o gasto que pasa por una sección en un tiempo determinado.",
+    "Respuesta normal": "Es la operación de medición del volumen de agua que pasa por una sección transversal de un conducto o canal por unidad de tiempo (Caudal), esencial para la dosificación de químicos y control del proceso."
+  },
+  {
+    "N°": 50,
+    "Sección": "Coagulación",
+    "Tema": "Procesos Químicos",
+    "Pregunta": "Defina Coagulación.",
+    "Respuesta super corta": "Desestabilización de coloides.",
+    "Respuesta corta": "Proceso de desestabilización de cargas de partículas coloidales mediante adición de químicos (mezcla rápida).",
+    "Respuesta normal": "Proceso físico-químico que consiste en la adición de reactivos (coagulantes) y una mezcla rápida para desestabilizar las cargas eléctricas de los coloides y sólidos suspendidos, permitiendo su posterior aglomeración."
+  },
+  {
+    "N°": 51,
+    "Sección": "Coagulación",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Mezcla Rápida.",
+    "Respuesta super corta": "Agitación intensa para dispersar coagulante.",
+    "Respuesta corta": "Proceso de dispersión instantánea y homogénea del coagulante en toda la masa de agua.",
+    "Respuesta normal": "Etapa donde se aplica una agitación violenta e intensa por un tiempo muy corto (segundos) con el objetivo de dispersar el coagulante uniformemente para que contacte con todas las partículas antes de que reaccione con el agua."
+  },
+  {
+    "N°": 52,
+    "Sección": "Coagulación",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Gradiente de Velocidad (G).",
+    "Respuesta super corta": "Medida de la intensidad de mezcla.",
+    "Respuesta corta": "Potencia disipada por unidad de volumen; indica la energía de agitación (unidades s-1).",
+    "Respuesta normal": "Parámetro que cuantifica la intensidad de la mezcla o agitación en el agua. Se define en función de la potencia introducida al agua, la viscosidad y el volumen. Valores altos de G se usan en coagulación, valores bajos en floculación."
+  },
+  {
+    "N°": 53,
+    "Sección": "Coagulación",
+    "Tema": "Hidráulica",
+    "Pregunta": "¿Qué es el Tiempo de Retención Hidráulica en la mezcla rápida?",
+    "Respuesta super corta": "Tiempo que el agua está en el mezclador.",
+    "Respuesta corta": "Es muy corto, generalmente menos de 60 segundos.",
+    "Respuesta normal": "Es el tiempo promedio que una partícula de agua permanece en la unidad de mezcla rápida. Debe ser muy breve (< 1 minuto, idealmente segundos) para asegurar la desestabilización antes de la formación de flóculos."
+  },
+  {
+    "N°": 54,
+    "Sección": "Coagulación",
+    "Tema": "Química",
+    "Pregunta": "Defina Coagulante.",
+    "Respuesta super corta": "Químico que desestabiliza cargas.",
+    "Respuesta corta": "Sustancia química (ej. sales de aluminio o hierro) que neutraliza cargas para permitir aglomeración.",
+    "Respuesta normal": "Producto químico (generalmente sales metálicas como sulfato de aluminio o cloruro férrico) que al añadirse al agua hidroliza y forma especies cargadas positivamente que neutralizan la carga negativa de los coloides."
+  },
+  {
+    "N°": 55,
+    "Sección": "Coagulación",
+    "Tema": "Mecanismos",
+    "Pregunta": "Diferencie el mecanismo de Neutralización de Carga vs. Barrido.",
+    "Respuesta super corta": "Carga: anula repulsión; Barrido: atrapa en precipitado.",
+    "Respuesta corta": "Neutralización reduce el potencial zeta; Barrido atrapa partículas en el precipitado de hidróxido metálico.",
+    "Respuesta normal": "La neutralización de carga ocurre a dosis bajas adsorbiendo iones opuestos. El barrido ocurre a dosis altas (sobresaturación), donde se forma un precipitado voluminoso de hidróxido (ej. Al(OH)3) que atrapa o 'barre' las partículas coloidales al sedimentar."
+  },
+  {
+    "N°": 56,
+    "Sección": "Coagulación",
+    "Tema": "Mecanismos",
+    "Pregunta": "¿Qué es la Inversión de Carga?",
+    "Respuesta super corta": "Cambio de signo de la carga del coloide.",
+    "Respuesta corta": "Ocurre por sobredosis de coagulante, volviendo a estabilizar la partícula con carga opuesta.",
+    "Respuesta normal": "Fenómeno que ocurre cuando se añade un exceso de coagulante, causando que las partículas coloidales (originalmente negativas) adsorban demasiados iones positivos, quedando con carga neta positiva y re-estabilizándose (no coagulan)."
+  },
+  {
+    "N°": 57,
+    "Sección": "Coagulación",
+    "Tema": "Equipos",
+    "Pregunta": "Defina Resalto Hidráulico (como mezclador).",
+    "Respuesta super corta": "Salto de agua que genera turbulencia.",
+    "Respuesta corta": "Uso de la energía disipada en un resalto hidráulico para mezclar el coagulante sin energía externa.",
+    "Respuesta normal": "Estructura hidráulica (como canaleta Parshall o vertedero) donde se provoca un cambio de régimen de supercrítico a subcrítico, generando alta turbulencia (alto G) que se aprovecha para la mezcla rápida de químicos."
+  },
+  {
+    "N°": 58,
+    "Sección": "Coagulación",
+    "Tema": "Equipos",
+    "Pregunta": "Defina Canaleta Parshall (función mezcla).",
+    "Respuesta super corta": "Medidor de caudal y mezclador.",
+    "Respuesta corta": "Estructura que mide caudal y genera un resalto hidráulico útil para la mezcla rápida.",
+    "Respuesta normal": "Dispositivo Venturi de canal abierto diseñado principalmente para aforar (medir caudal), pero que debido a la contracción y expansión genera turbulencia suficiente para ser usado simultáneamente como unidad de mezcla rápida."
+  },
+  {
+    "N°": 59,
+    "Sección": "Coagulación",
+    "Tema": "Control de Procesos",
+    "Pregunta": "Describa el Test de Jarras (Jar Test).",
+    "Respuesta super corta": "Ensayo para determinar dosis óptima.",
+    "Respuesta corta": "Simulación en laboratorio de coagulación-floculación-sedimentación para hallar la mejor dosis de químicos.",
+    "Respuesta normal": "Ensayo de laboratorio que simula los procesos de coagulación, floculación y sedimentación en una serie de vasos con diferentes dosis de químicos y pH, para determinar las condiciones óptimas de operación de la planta."
+  },
+  {
+    "N°": 60,
+    "Sección": "Coagulación",
+    "Tema": "Química",
+    "Pregunta": "¿Qué relación hay entre Alcalinidad y la eficiencia del coagulante?",
+    "Respuesta super corta": "La alcalinidad es necesaria para la reacción.",
+    "Respuesta corta": "El coagulante consume alcalinidad; si es baja, el pH cae y falla la coagulación.",
+    "Respuesta normal": "Los coagulantes metálicos reaccionan con la alcalinidad del agua (bicarbonatos) para formar los flóculos de hidróxido insolubles. Si la alcalinidad es insuficiente, el pH baja drásticamente y la coagulación se inhibe, requiriendo adición de cal o soda."
+  },
+  {
+    "N°": 61,
+    "Sección": "Floculación",
+    "Tema": "Procesos Físicos",
+    "Pregunta": "Defina Floculación.",
+    "Respuesta super corta": "Aglomeración de partículas desestabilizadas.",
+    "Respuesta corta": "Proceso de mezcla lenta para unir partículas y formar flóculos sedimentables.",
+    "Respuesta normal": "Proceso físico de agitación suave y continua (mezcla lenta) que promueve las colisiones entre partículas desestabilizadas para que se aglomeren y formen flóculos de mayor tamaño y peso, capaces de sedimentar."
+  },
+  {
+    "N°": 62,
+    "Sección": "Floculación",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Mezcla Lenta.",
+    "Respuesta super corta": "Agitación suave para crecimiento de flocs.",
+    "Respuesta corta": "Agitación con bajo gradiente de velocidad para promover uniones sin romper los flóculos.",
+    "Respuesta normal": "Etapa de agitación suave (G bajo) que sigue a la mezcla rápida. Su objetivo es maximizar el contacto entre partículas para que crezca el floc, evitando fuerzas de corte altas que lo rompan."
+  },
+  {
+    "N°": 63,
+    "Sección": "Floculación",
+    "Tema": "Mecanismos",
+    "Pregunta": "Defina Floculación Pericinética.",
+    "Respuesta super corta": "Aglomeración por movimiento Browniano.",
+    "Respuesta corta": "Unión de partículas debido únicamente a su movimiento térmico aleatorio (partículas muy pequeñas).",
+    "Respuesta normal": "Fase inicial de la floculación causada por el movimiento Browniano (difusión) de las partículas submicrónicas. Es efectiva solo para partículas muy pequeñas (< 1 µm) y no depende de la agitación mecánica."
+  },
+  {
+    "N°": 64,
+    "Sección": "Floculación",
+    "Tema": "Mecanismos",
+    "Pregunta": "Defina Floculación Ortocinética.",
+    "Respuesta super corta": "Aglomeración por movimiento del fluido.",
+    "Respuesta corta": "Unión de partículas promovida por la agitación externa (gradiente de velocidad) del fluido.",
+    "Respuesta normal": "Floculación causada por el movimiento del fluido inducido externa o gravitacionalmente. El gradiente de velocidad provoca que partículas con diferentes velocidades colisionen. Es el mecanismo dominante para formar flocs sedimentables."
+  },
+  {
+    "N°": 65,
+    "Sección": "Floculación",
+    "Tema": "Definiciones",
+    "Pregunta": "¿Qué es un Floc (Flóculo)?",
+    "Respuesta super corta": "Aglomeración visible de partículas.",
+    "Respuesta corta": "Masa esponjosa formada por la agregación de partículas coloidales y coagulante precipitado.",
+    "Respuesta normal": "Agregado de partículas desestabilizadas y precipitados químicos que se forma durante la floculación. Tiene estructura porosa, mayor tamaño y peso, lo que permite su separación por sedimentación o filtración."
+  },
+  {
+    "N°": 66,
+    "Sección": "Floculación",
+    "Tema": "Química",
+    "Pregunta": "Defina Polímero (Ayudante de floculación).",
+    "Respuesta super corta": "Cadena molecular que une flocs.",
+    "Respuesta corta": "Compuesto de alto peso molecular que fortalece y agranda el flóculo mediante puentes químicos.",
+    "Respuesta normal": "Sustancia química de cadena larga (orgánica o sintética) que se añade para mejorar la estructura del flóculo, haciéndolo más grande, denso y resistente al corte mediante el mecanismo de puente interpartícula."
+  },
+  {
+    "N°": 67,
+    "Sección": "Floculación",
+    "Tema": "Química",
+    "Pregunta": "Defina Polielectrolito.",
+    "Respuesta super corta": "Polímero con carga eléctrica.",
+    "Respuesta corta": "Polímero cuyos grupos funcionales adquieren carga (aniónica, catiónica) en solución.",
+    "Respuesta normal": "Tipo de polímero que tiene grupos ionizables a lo largo de su cadena. Al disociarse en agua, adquiere cargas eléctricas, actuando tanto por neutralización de carga como por formación de puentes."
+  },
+  {
+    "N°": 68,
+    "Sección": "Floculación",
+    "Tema": "Diseño",
+    "Pregunta": "¿Qué es el Número de Camp (Gt)?",
+    "Respuesta super corta": "Producto de G por t (adimensional).",
+    "Respuesta corta": "Parámetro de diseño que relaciona la intensidad de mezcla (G) con el tiempo de residencia (t).",
+    "Respuesta normal": "Es el producto adimensional del gradiente de velocidad (G) y el tiempo de retención (t). Representa el número total de colisiones o la oportunidad de contacto entre partículas en el proceso de floculación."
+  },
+  {
+    "N°": 69,
+    "Sección": "Floculación",
+    "Tema": "Diseño",
+    "Pregunta": "¿Por qué el gradiente G debe ser decreciente en la floculación?",
+    "Respuesta super corta": "Para no romper los flocs grandes.",
+    "Respuesta corta": "Inicia alto para promover choques, disminuye para evitar cizallamiento del floc ya formado.",
+    "Respuesta normal": "El gradiente G debe disminuir progresivamente (tapered flocculation) porque al inicio se necesita energía para promover colisiones, pero a medida que el floc crece, se vuelve frágil y un G alto lo rompería."
+  },
+  {
+    "N°": 70,
+    "Sección": "Sedimentación",
+    "Tema": "Procesos Físicos",
+    "Pregunta": "Defina Sedimentación.",
+    "Respuesta super corta": "Separación de sólidos por gravedad.",
+    "Respuesta corta": "Proceso donde las partículas caen al fondo por ser más densas que el agua.",
+    "Respuesta normal": "Operación unitaria de separación sólido-líquido donde las partículas suspendidas con densidad mayor a la del agua se asientan en el fondo del tanque por acción de la gravedad."
+  },
+  {
+    "N°": 71,
+    "Sección": "Sedimentación",
+    "Tema": "Diseño",
+    "Pregunta": "Defina Carga Superficial (Vc o Velocidad Ascensional).",
+    "Respuesta super corta": "Caudal dividido por área superficial (Q/As).",
+    "Respuesta corta": "Velocidad crítica de diseño; representa la velocidad de la partícula más pequeña que se retiene al 100%.",
+    "Respuesta normal": "Es la relación entre el caudal de entrada y el área superficial del sedimentador (Q/As). Corresponde a la velocidad de asentamiento de la partícula crítica que es removida teóricamente al 100%."
+  },
+  {
+    "N°": 72,
+    "Sección": "Sedimentación",
+    "Tema": "Física de Partículas",
+    "Pregunta": "Defina Velocidad de Sedimentación (Vs).",
+    "Respuesta super corta": "Velocidad de caída de la partícula.",
+    "Respuesta corta": "Velocidad terminal constante que alcanza una partícula al caer en un fluido.",
+    "Respuesta normal": "Es la velocidad constante a la que desciende una partícula en un fluido cuando la fuerza de gravedad se equilibra con el empuje y la fuerza de arrastre (fricción). Depende del tamaño, densidad y viscosidad."
+  },
+  {
+    "N°": 73,
+    "Sección": "Sedimentación",
+    "Tema": "Física de Partículas",
+    "Pregunta": "Explique la Ley de Stokes.",
+    "Respuesta super corta": "Describe la sedimentación laminar.",
+    "Respuesta corta": "Fórmula que calcula la velocidad de sedimentación de partículas esféricas en régimen laminar (Re < 1).",
+    "Respuesta normal": "Ley física que describe la velocidad de sedimentación de partículas esféricas pequeñas en un fluido en reposo bajo régimen laminar. Establece que la velocidad es proporcional al cuadrado del diámetro y a la diferencia de densidades."
+  },
+  {
+    "N°": 74,
+    "Sección": "Sedimentación",
+    "Tema": "Tecnología",
+    "Pregunta": "Defina Sedimentador de Alta Tasa.",
+    "Respuesta super corta": "Sedimentador con placas o tubos.",
+    "Respuesta corta": "Unidad que usa módulos lamelares para aumentar el área de sedimentación y reducir el tamaño del tanque.",
+    "Respuesta normal": "Sedimentador que incorpora módulos de placas o tubos inclinados. Esto aumenta enormemente el área efectiva de sedimentación (proyección horizontal) y reduce la distancia de caída, permitiendo tasas de carga superficial mucho mayores."
+  },
+  {
+    "N°": 75,
+    "Sección": "Sedimentación",
+    "Tema": "Tecnología",
+    "Pregunta": "¿Qué es una Lamela (Placa)?",
+    "Respuesta super corta": "Placa inclinada en el sedimentador.",
+    "Respuesta corta": "Superficie inclinada instalada en el tanque para mejorar la sedimentación (alta tasa).",
+    "Respuesta normal": "Elemento plano o inclinado utilizado en sedimentadores de alta tasa. Aumenta la superficie de asiento y organiza el flujo para que sea laminar, mejorando la eficiencia de remoción de partículas."
+  },
+  {
+    "N°": 76,
+    "Sección": "Sedimentación",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Número de Reynolds en sedimentación lamelar (Laminar vs Turbulento).",
+    "Respuesta super corta": "Debe ser bajo (Laminar, Re < 500).",
+    "Respuesta corta": "Parámetro que asegura flujo laminar entre placas para una sedimentación eficiente.",
+    "Respuesta normal": "En sedimentadores de alta tasa, el Número de Reynolds debe ser bajo (generalmente < 500) para asegurar que el flujo entre las placas sea laminar y estable, permitiendo la caída de las partículas sin turbulencia."
+  },
+  {
+    "N°": 77,
+    "Sección": "Sedimentación",
+    "Tema": "Diseño",
+    "Pregunta": "Defina Zona de Entrada (o Longitud de Entrada) en una placa.",
+    "Respuesta super corta": "Zona donde se estabiliza el flujo.",
+    "Respuesta corta": "Longitud inicial de la placa donde el flujo pasa de turbulento a laminar completamente desarrollado.",
+    "Respuesta normal": "Es la distancia inicial a lo largo de la placa o tubo donde el perfil de velocidades del flujo se está desarrollando hasta volverse estable (laminar). En esta zona la sedimentación no es eficiente."
+  },
+  {
+    "N°": 78,
+    "Sección": "Sedimentación",
+    "Tema": "Diseño",
+    "Pregunta": "¿Qué es el Radio Hidráulico en módulos tubulares?",
+    "Respuesta super corta": "Área de flujo / Perímetro mojado.",
+    "Respuesta corta": "Relación geométrica usada para calcular el Reynolds en conductos no circulares (tubos o placas).",
+    "Respuesta normal": "Es la relación entre el área de la sección transversal del flujo y el perímetro mojado. Se utiliza en el cálculo del Número de Reynolds para determinar el régimen de flujo dentro de los módulos de alta tasa."
+  },
+  {
+    "N°": 79,
+    "Sección": "Sedimentación",
+    "Tema": "Diseño",
+    "Pregunta": "Defina Carga sobre Vertedero (Weir Loading Rate).",
+    "Respuesta super corta": "Caudal por longitud de vertedero.",
+    "Respuesta corta": "Caudal que sale por unidad de longitud del vertedero de salida; evita arrastre de lodos.",
+    "Respuesta normal": "Es el caudal de agua que rebosa por unidad de longitud del vertedero de salida (m3/m·día). Se limita para evitar velocidades de ascenso altas cerca de la salida que podrían resuspender los flóculos."
+  },
+  {
+    "N°": 80,
+    "Sección": "Sedimentación",
+    "Tema": "Operación",
+    "Pregunta": "Defina Zona de Lodos.",
+    "Respuesta super corta": "Fondo donde se acumula el sedimento.",
+    "Respuesta corta": "Parte inferior del sedimentador destinada al almacenamiento y compactación de los sólidos removidos.",
+    "Respuesta normal": "Zona ubicada en el fondo del tanque de sedimentación diseñada para recibir, acumular y permitir cierta compactación de los flóculos sedimentados antes de su extracción."
+  },
+  {
+    "N°": 81,
+    "Sección": "Sedimentación",
+    "Tema": "Equipos",
+    "Pregunta": "¿Qué es una Rastra de lodos?",
+    "Respuesta super corta": "Equipo mecánico que barre el fondo.",
+    "Respuesta corta": "Mecanismo que empuja los lodos sedimentados hacia la tolva de extracción.",
+    "Respuesta normal": "Equipo mecánico con brazos o paletas que gira o se mueve lentamente en el fondo del sedimentador para barrer y concentrar los lodos hacia un punto de descarga (tolva) sin resuspenderlos."
+  },
+  {
+    "N°": 82,
+    "Sección": "Filtración",
+    "Tema": "Tipos",
+    "Pregunta": "Defina Filtración Rápida.",
+    "Respuesta super corta": "Alta velocidad, limpieza por retrolavado.",
+    "Respuesta corta": "Paso de agua a alta velocidad (5-15 m/h) por lecho granular; requiere limpieza hidráulica frecuente.",
+    "Respuesta normal": "Proceso de filtración que opera a altas tasas (5 a 15 m/h o más), utiliza lechos de arena/antracita y funciona principalmente por filtración en profundidad. Requiere limpieza por retrolavado a contracorriente cada 24-72 horas."
+  },
+  {
+    "N°": 83,
+    "Sección": "Filtración",
+    "Tema": "Medios",
+    "Pregunta": "Defina Medio Filtrante.",
+    "Respuesta super corta": "Material granular (arena, antracita).",
+    "Respuesta corta": "Material poroso (granos) a través del cual pasa el agua para retener sólidos.",
+    "Respuesta normal": "Material granular (arena, antracita, granate) dispuesto en capas a través del cual se hace pasar el agua para retener las partículas suspendidas que no sedimentaron."
+  },
+  {
+    "N°": 84,
+    "Sección": "Filtración",
+    "Tema": "Medios",
+    "Pregunta": "Defina Lecho Dual (o Mixto).",
+    "Respuesta super corta": "Filtro con dos materiales (antracita/arena).",
+    "Respuesta corta": "Uso de antracita (menos densa, grano grande) sobre arena (más densa, grano chico) para filtrar en profundidad.",
+    "Respuesta normal": "Configuración de filtro que utiliza dos capas de materiales: una superior de antracita (grano más grueso y ligero) y una inferior de arena (más fina y pesada). Permite mayor carrera de filtración y penetración de sólidos."
+  },
+  {
+    "N°": 85,
+    "Sección": "Filtración",
+    "Tema": "Medios",
+    "Pregunta": "Diferencie Antracita vs. Arena Sílice.",
+    "Respuesta super corta": "Antracita: carbón, ligera; Arena: sílice, pesada.",
+    "Respuesta corta": "Antracita va arriba (menos densidad), arena abajo. Antracita permite mayor retención de sólidos.",
+    "Respuesta normal": "La antracita es carbón mineral, más ligera y de granos más angulares y grandes, usada en la capa superior. La arena sílice es más densa y fina, usada abajo. Esta diferencia de densidad mantiene la estratificación tras el lavado."
+  },
+  {
+    "N°": 86,
+    "Sección": "Filtración",
+    "Tema": "Propiedades del Medio",
+    "Pregunta": "Defina Tamaño Efectivo (d10).",
+    "Respuesta super corta": "Tamaño que deja pasar el 10%.",
+    "Respuesta corta": "Abertura del tamiz por donde pasa el 10% del peso del material; define la resistencia hidraúlica.",
+    "Respuesta normal": "Es el tamaño de partícula (en mm) tal que el 10% del peso total de la muestra de arena es menor que ese tamaño. Es un parámetro clave para determinar la pérdida de carga inicial del filtro."
+  },
+  {
+    "N°": 87,
+    "Sección": "Filtración",
+    "Tema": "Propiedades del Medio",
+    "Pregunta": "Defina Coeficiente de Uniformidad (CU).",
+    "Respuesta super corta": "Relación d60/d10.",
+    "Respuesta corta": "Indica qué tan uniforme es el tamaño de los granos (d60 dividido por d10).",
+    "Respuesta normal": "Es la relación entre el tamaño d60 (60% pasa) y el d10. Un CU bajo (< 1.5) indica granos de tamaño muy uniforme, lo cual es deseable para maximizar la porosidad y asegurar una expansión uniforme en el lavado."
+  },
+  {
+    "N°": 88,
+    "Sección": "Filtración",
+    "Tema": "Hidráulica",
+    "Pregunta": "Defina Pérdida de Carga (Head Loss).",
+    "Respuesta super corta": "Resistencia al flujo.",
+    "Respuesta corta": "Caída de presión que sufre el agua al atravesar el medio filtrante (limpio o sucio).",
+    "Respuesta normal": "Es la pérdida de energía (presión) del agua al pasar por el filtro debido a la fricción con los granos y los depósitos acumulados. Aumenta a medida que el filtro se ensucia y determina el final de la carrera."
+  },
+  {
+    "N°": 89,
+    "Sección": "Filtración",
+    "Tema": "Operación",
+    "Pregunta": "Defina Carrera del Filtro.",
+    "Respuesta super corta": "Tiempo entre dos lavados.",
+    "Respuesta corta": "Tiempo de operación del filtro desde que inicia limpio hasta que requiere lavado (por turbiedad o pérdida de carga).",
+    "Respuesta normal": "Es el ciclo de operación de un filtro, medido en horas, desde que se pone en servicio (limpio) hasta que debe ser sacado para retrolavado, ya sea por alcanzar la pérdida de carga máxima, fuga de turbiedad o tiempo máximo."
+  },
+  {
+    "N°": 90,
+    "Sección": "Filtración",
+    "Tema": "Operación",
+    "Pregunta": "Defina Retrolavado (Backwash).",
+    "Respuesta super corta": "Lavado a contracorriente.",
+    "Respuesta corta": "Inyección de agua (y aire) de abajo hacia arriba para expandir el lecho y lavar la suciedad.",
+    "Respuesta normal": "Proceso de limpieza del filtro donde se invierte el flujo de agua (ascendente) a una velocidad suficiente para fluidizar y expandir el lecho, liberando y arrastrando las partículas retenidas hacia el desagüe."
+  },
+  {
+    "N°": 91,
+    "Sección": "Filtración",
+    "Tema": "Operación",
+    "Pregunta": "Defina Fluidización del Lecho.",
+    "Respuesta super corta": "Suspensión de granos por flujo ascendente.",
+    "Respuesta corta": "Estado en el retrolavado donde la fuerza del agua iguala el peso de la arena, haciéndola comportarse como fluido.",
+    "Respuesta normal": "Fenómeno que ocurre durante el retrolavado cuando la velocidad del agua ascendente es tal que la fuerza de arrastre iguala al peso sumergido de los granos, haciendo que el lecho se expanda y se mueva como un fluido."
+  },
+  {
+    "N°": 92,
+    "Sección": "Filtración",
+    "Tema": "Física",
+    "Pregunta": "Defina Estratificación del lecho.",
+    "Respuesta super corta": "Ordenamiento de granos por tamaño.",
+    "Respuesta corta": "Clasificación natural de los granos tras el lavado: finos arriba, gruesos abajo (en lecho simple).",
+    "Respuesta normal": "Fenómeno que ocurre al terminar el retrolavado en filtros de un solo medio, donde los granos más finos sedimentan último y quedan arriba, y los gruesos abajo. Esto es indeseable para la filtración en profundidad (por eso se usan lechos duales)."
+  },
+  {
+    "N°": 93,
+    "Sección": "Filtración",
+    "Tema": "Mecanismos",
+    "Pregunta": "¿Qué es la Filtración de Torta?",
+    "Respuesta super corta": "Retención en la superficie.",
+    "Respuesta corta": "Acumulación de sólidos solo en la cara superior del filtro (típico en filtros lentos o de precapa).",
+    "Respuesta normal": "Mecanismo donde los sólidos quedan retenidos en la superficie del medio filtrante formando una capa o 'torta'. Es característico de los filtros lentos de arena, pero indeseable en filtros rápidos ya que colmata rápido."
+  },
+  {
+    "N°": 94,
+    "Sección": "Filtración",
+    "Tema": "Mecanismos",
+    "Pregunta": "¿Qué es la Filtración de Profundidad?",
+    "Respuesta super corta": "Retención dentro del lecho.",
+    "Respuesta corta": "Los sólidos penetran y se retienen en los intersticios dentro del medio filtrante (filtros rápidos).",
+    "Respuesta normal": "Mecanismo donde las partículas son transportadas al interior del lecho y se adhieren a la superficie de los granos en toda la profundidad del filtro. Permite mayores tasas de filtración y carreras más largas."
+  },
+  {
+    "N°": 95,
+    "Sección": "Filtración",
+    "Tema": "Biología",
+    "Pregunta": "Defina Schmutzdecke.",
+    "Respuesta super corta": "Capa biológica superficial.",
+    "Respuesta corta": "Piel de suciedad biológica que se forma sobre filtros lentos y realiza la purificación.",
+    "Respuesta normal": "Capa biológica activa (bacterias, algas, protozoos) que se forma en la superficie de la arena en los filtros lentos. Es responsable de la mayor parte de la remoción de patógenos y materia orgánica en este tipo de filtros."
+  },
+  {
+    "N°": 96,
+    "Sección": "Filtración",
+    "Tema": "Operación",
+    "Pregunta": "Defina Tasa de Expansión del Lecho.",
+    "Respuesta super corta": "Aumento de volumen en retrolavado.",
+    "Respuesta corta": "Porcentaje que sube el nivel de la arena durante el lavado (típicamente 20-50%).",
+    "Respuesta normal": "Es el incremento porcentual del volumen (altura) del lecho filtrante durante el retrolavado debido a la fluidización. Una expansión adecuada (ej. 30%) es necesaria para asegurar que los granos choquen y se limpien."
+  },
+  {
+    "N°": 97,
+    "Sección": "Filtración",
+    "Tema": "Problemas",
+    "Pregunta": "¿Qué son las Bolas de Lodo (Mudballs)?",
+    "Respuesta super corta": "Aglomeraciones de suciedad no lavada.",
+    "Respuesta corta": "Masas de lodo y arena que no se rompen en el lavado y reducen el área útil del filtro.",
+    "Respuesta normal": "Aglomeraciones compactas de material filtrante, lodo y polímeros que se forman dentro del filtro por un lavado ineficiente. Crecen con el tiempo, causan cortocircuitos y degradan la calidad del agua."
+  },
+  {
+    "N°": 98,
+    "Sección": "Filtración",
+    "Tema": "Estructura",
+    "Pregunta": "Defina Falso Fondo.",
+    "Respuesta super corta": "Soporte del lecho y sistema de drenaje.",
+    "Respuesta corta": "Estructura inferior con boquillas que sostiene la grava/arena y distribuye el agua de lavado.",
+    "Respuesta normal": "Losa o sistema de bloques ubicado en el fondo del filtro que soporta el medio filtrante (y la grava) y contiene las toberas o ranuras para recolectar el agua filtrada y distribuir uniformemente el agua de retrolavado."
+  },
+  {
+    "N°": 99,
+    "Sección": "Filtración",
+    "Tema": "Problemas",
+    "Pregunta": "¿Qué es la Presión Negativa (o Air Binding) en un filtro?",
+    "Respuesta super corta": "Formación de vacío en el lecho.",
+    "Respuesta corta": "Presión menor a la atmosférica dentro del lecho, liberando burbujas de aire que bloquean el flujo.",
+    "Respuesta normal": "Condición indeseable que ocurre cuando la pérdida de carga supera la carga estática disponible en algún punto del lecho, generando vacío parcial. Esto libera gases disueltos (burbujas) que bloquean los poros (colmatación por aire)."
+  },
+  {
+    "N°": 100,
+    "Sección": "Filtración",
+    "Tema": "Variantes",
+    "Pregunta": "Defina Filtración Directa.",
+    "Respuesta super corta": "Filtración sin sedimentación previa.",
+    "Respuesta corta": "Proceso donde el agua coagulada pasa directamente a los filtros, omitiendo el decantador.",
+    "Respuesta normal": "Esquema de tratamiento donde se omite la etapa de sedimentación. El agua se coagula y flocula (a veces dentro del mismo filtro) y pasa directo a filtración. Solo apto para aguas con baja turbiedad y color."
+  },
+  {
+    "N°": 101,
+    "Sección": "Desalinización",
+    "Tema": "Conceptos",
+    "Pregunta": "Defina Desalinización.",
+    "Respuesta super corta": "Remoción de sales del agua.",
+    "Respuesta corta": "Proceso de separar sales disueltas del agua para hacerla potable o útil.",
+    "Respuesta normal": "Proceso de tratamiento que elimina minerales y sales disueltas del agua (salobre o de mar) para obtener agua dulce apta para consumo humano, riego o uso industrial."
+  },
+  {
+    "N°": 102,
+    "Sección": "Desalinización",
+    "Tema": "Física",
+    "Pregunta": "Defina Ósmosis.",
+    "Respuesta super corta": "Flujo natural de agua hacia mayor concentración.",
+    "Respuesta corta": "Paso espontáneo de solvente a través de membrana hacia la solución más concentrada para igualar concentraciones.",
+    "Respuesta normal": "Fenómeno natural donde el solvente (agua) fluye a través de una membrana semipermeable desde una solución de baja concentración de sales hacia una de alta concentración, buscando el equilibrio químico."
+  },
+  {
+    "N°": 103,
+    "Sección": "Desalinización",
+    "Tema": "Física",
+    "Pregunta": "Defina Presión Osmótica.",
+    "Respuesta super corta": "Presión para detener la ósmosis.",
+    "Respuesta corta": "Presión natural que ejerce la solución concentrada; depende de la salinidad y temperatura.",
+    "Respuesta normal": "Es la presión hidrostática necesaria para detener el flujo neto de agua a través de una membrana semipermeable que separa dos soluciones de diferente concentración. En agua de mar es aprox. 25-30 bar."
+  },
+  {
+    "N°": 104,
+    "Sección": "Desalinización",
+    "Tema": "Tecnología",
+    "Pregunta": "Defina Ósmosis Inversa (RO).",
+    "Respuesta super corta": "Inversión del flujo osmótico con presión.",
+    "Respuesta corta": "Proceso de forzar agua a través de membrana aplicando presión mayor a la osmótica.",
+    "Respuesta normal": "Tecnología de membrana donde se aplica una presión externa superior a la presión osmótica de la solución salina, forzando el paso del agua pura a través de la membrana y reteniendo las sales."
+  },
+  {
+    "N°": 105,
+    "Sección": "Desalinización",
+    "Tema": "Componentes",
+    "Pregunta": "Defina Membrana Semipermeable.",
+    "Respuesta super corta": "Barrera que deja pasar solo agua.",
+    "Respuesta corta": "Material que permite el paso del solvente (agua) pero rechaza los solutos (sales).",
+    "Respuesta normal": "Película delgada (generalmente polímeros) que actúa como barrera selectiva, permitiendo el paso de moléculas de agua mientras restringe el paso de iones disueltos y moléculas más grandes."
+  },
+  {
+    "N°": 106,
+    "Sección": "Desalinización",
+    "Tema": "Materiales",
+    "Pregunta": "Defina Poliamida Aromática.",
+    "Respuesta super corta": "Material común de membranas RO.",
+    "Respuesta corta": "Polímero usado para la capa activa de las membranas modernas (TFC) por su alto rechazo de sales.",
+    "Respuesta normal": "Es el material químico más utilizado en la 'capa activa' o piel de las membranas de ósmosis inversa compuestas (TFC). Ofrece alto rechazo de sales y buen flujo, aunque es sensible al cloro."
+  },
+  {
+    "N°": 107,
+    "Sección": "Desalinización",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Flux (Caudal permeado por área).",
+    "Respuesta super corta": "Caudal por unidad de área de membrana.",
+    "Respuesta corta": "Volumen de agua producida por metro cuadrado de membrana por hora (L/m2h).",
+    "Respuesta normal": "Es el caudal de permeado (agua producto) que pasa a través de una unidad de área de superficie de membrana por unidad de tiempo. Es un parámetro crítico de diseño (evitar flux excesivo reduce ensuciamiento)."
+  },
+  {
+    "N°": 108,
+    "Sección": "Desalinización",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Recuperación (Conversión/Recovery).",
+    "Respuesta super corta": "% de agua producto obtenida.",
+    "Respuesta corta": "Porcentaje del agua de alimentación que se convierte en agua permeada (dulce).",
+    "Respuesta normal": "Es la fracción del caudal de alimentación que se convierte en permeado (agua producto), expresada en porcentaje. En agua de mar típica es 45-50%, el resto es rechazo (salmuera)."
+  },
+  {
+    "N°": 109,
+    "Sección": "Desalinización",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Rechazo de Sales.",
+    "Respuesta super corta": "% de sales retenidas.",
+    "Respuesta corta": "Porcentaje de sales que la membrana impide pasar (típicamente >99% en RO).",
+    "Respuesta normal": "Es la capacidad de la membrana para impedir el paso de iones. Se mide como el porcentaje de la concentración de sales en la alimentación que no atraviesa la membrana. RO moderna rechaza > 99.5%."
+  },
+  {
+    "N°": 110,
+    "Sección": "Desalinización",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Paso de Sales (Salt Passage).",
+    "Respuesta super corta": "% de sales que atraviesan.",
+    "Respuesta corta": "Lo contrario al rechazo (100% - %Rechazo); sales que logran pasar al permeado.",
+    "Respuesta normal": "Es el porcentaje de sales que logra atravesar la membrana junto con el agua producto. Es el complemento del rechazo (Paso de sales = 1 - Rechazo). Aumenta con la temperatura y el envejecimiento de la membrana."
+  },
+  {
+    "N°": 111,
+    "Sección": "Desalinización",
+    "Tema": "Fenómenos",
+    "Pregunta": "Defina Polarización por Concentración.",
+    "Respuesta super corta": "Acumulación de sales en la superficie.",
+    "Respuesta corta": "Aumento de salinidad justo en la superficie de la membrana respecto al flujo general.",
+    "Respuesta normal": "Fenómeno donde la concentración de sales en la capa límite adyacente a la superficie de la membrana es mayor que en el seno de la solución, debido al flujo de agua que atraviesa y deja las sales atrás. Aumenta la presión osmótica local."
+  },
+  {
+    "N°": 112,
+    "Sección": "Desalinización",
+    "Tema": "Tecnologías Térmicas",
+    "Pregunta": "Defina MSF (Flash Multietapa).",
+    "Respuesta super corta": "Evaporación súbita en etapas.",
+    "Respuesta corta": "Tecnología térmica donde el agua se evapora por reducción de presión en cámaras sucesivas.",
+    "Respuesta normal": "Multi-Stage Flash. Proceso térmico donde el agua de mar se calienta y pasa por una serie de cámaras (etapas) con presión decreciente, causando que una parte del agua se evapore súbitamente ('flash') en cada etapa."
+  },
+  {
+    "N°": 113,
+    "Sección": "Desalinización",
+    "Tema": "Tecnologías Térmicas",
+    "Pregunta": "Defina MED (Destilación Multi-efecto).",
+    "Respuesta super corta": "Evaporación sobre tubos calientes.",
+    "Respuesta corta": "Tecnología térmica donde el vapor de una etapa calienta la siguiente (efectos).",
+    "Respuesta normal": "Multi-Effect Distillation. Proceso donde el agua de mar se rocía sobre tubos calientes en varias cámaras. El vapor generado en un efecto se usa como fuente de calor para el siguiente efecto, que está a menor presión."
+  },
+  {
+    "N°": 114,
+    "Sección": "Desalinización",
+    "Tema": "Otras Tecnologías",
+    "Pregunta": "Defina Electrodiálisis.",
+    "Respuesta super corta": "Separación de iones con electricidad.",
+    "Respuesta corta": "Uso de corriente eléctrica y membranas selectivas para mover iones fuera del agua.",
+    "Respuesta normal": "Proceso de separación electroquímico donde los iones son transportados a través de membranas selectivas de iones (aniónicas y catiónicas) bajo la influencia de un campo eléctrico directo. Útil para aguas salobres, no de mar."
+  },
+  {
+    "N°": 115,
+    "Sección": "Desalinización",
+    "Tema": "Membranas (No RO)",
+    "Pregunta": "Defina Microfiltración (MF).",
+    "Respuesta super corta": "Filtra partículas y bacterias.",
+    "Respuesta corta": "Membrana porosa (0.1-10 µm) que remueve sólidos suspendidos y bacterias, no sales.",
+    "Respuesta normal": "Proceso de membrana de baja presión que remueve partículas, sedimentos, algas y bacterias del rango de micrones. No remueve virus ni sales disueltas. Se usa a menudo como pretratamiento para RO."
+  },
+  {
+    "N°": 116,
+    "Sección": "Desalinización",
+    "Tema": "Membranas (No RO)",
+    "Pregunta": "Defina Ultrafiltración (UF).",
+    "Respuesta super corta": "Filtra virus y coloides.",
+    "Respuesta corta": "Membrana más cerrada que MF (0.01-0.1 µm), remueve virus y macromoléculas.",
+    "Respuesta normal": "Proceso de membrana que retiene partículas más finas que la MF, incluyendo coloides, proteínas y virus. Actúa como una barrera absoluta para sólidos suspendidos y patógenos. Excelente pretratamiento para RO."
+  },
+  {
+    "N°": 117,
+    "Sección": "Desalinización",
+    "Tema": "Membranas (No RO)",
+    "Pregunta": "Defina Nanofiltración (NF).",
+    "Respuesta super corta": "Filtra iones divalentes.",
+    "Respuesta corta": "Membrana intermedia entre UF y RO; remueve dureza, pesticidas y materia orgánica.",
+    "Respuesta normal": "Proceso de membrana de alta presión (menor que RO) que retiene moléculas orgánicas y iones multivalentes (Ca+2, Mg+2, SO4-2), pero deja pasar iones monovalentes (Na+, Cl-). Se usa para ablandamiento."
+  },
+  {
+    "N°": 118,
+    "Sección": "Desalinización",
+    "Tema": "Componentes RO",
+    "Pregunta": "Defina Módulo Spiral Wound.",
+    "Respuesta super corta": "Configuración enrollada de membrana.",
+    "Respuesta corta": "Hojas de membrana enrolladas en espiral alrededor de un tubo colector; estándar en RO.",
+    "Respuesta normal": "Configuración 'enrollada en espiral' donde pares de hojas de membrana plana se pegan formando sobres, separados por espaciadores, y se enrollan alrededor de un tubo central perforado. Maximiza el área en poco volumen."
+  },
+  {
+    "N°": 119,
+    "Sección": "Desalinización",
+    "Tema": "Componentes RO",
+    "Pregunta": "¿Qué es un Espaciador en la membrana?",
+    "Respuesta super corta": "Malla que crea canal de flujo.",
+    "Respuesta corta": "Malla plástica entre hojas de membrana que genera turbulencia y espacio para el agua.",
+    "Respuesta normal": "Material de malla (generalmente polipropileno) colocado entre las hojas de membrana dentro del módulo. Mantiene el canal de flujo abierto para la alimentación y promueve turbulencia para reducir la polarización por concentración."
+  },
+  {
+    "N°": 120,
+    "Sección": "Desalinización",
+    "Tema": "Componentes RO",
+    "Pregunta": "Defina Tubo de Presión.",
+    "Respuesta super corta": "Carcasa que contiene las membranas.",
+    "Respuesta corta": "Recipiente cilíndrico resistente a alta presión donde se alojan los elementos de membrana.",
+    "Respuesta normal": "Recipiente (Pressure Vessel), generalmente de fibra de vidrio, diseñado para soportar la alta presión de operación (hasta 80-100 bar). Aloja varios elementos de membrana (usualmente 6 a 8) conectados en serie."
+  },
+  {
+    "N°": 121,
+    "Sección": "Desalinización",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Permeabilidad Hidráulica.",
+    "Respuesta super corta": "Facilidad de paso del agua.",
+    "Respuesta corta": "Coeficiente que indica cuánta agua pasa por la membrana por unidad de presión y área.",
+    "Respuesta normal": "Propiedad intrínseca de la membrana que mide la velocidad a la que el agua la atraviesa bajo una presión impulsora neta dada (factor A). Disminuye con la compactación y ensuciamiento."
+  },
+  {
+    "N°": 122,
+    "Sección": "Desalinización",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Fouling (Ensuciamiento).",
+    "Respuesta super corta": "Acumulación de materia en membrana.",
+    "Respuesta corta": "Depósito de sólidos, materia orgánica o biológica sobre la membrana que baja el rendimiento.",
+    "Respuesta normal": "Acumulación de materiales (coloides, partículas, materia orgánica, microorganismos) en la superficie de la membrana que obstruye el paso del agua, aumentando la presión necesaria y reduciendo el flujo."
+  },
+  {
+    "N°": 123,
+    "Sección": "Desalinización",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Scaling (Incrustación).",
+    "Respuesta super corta": "Precipitación de sales minerales.",
+    "Respuesta corta": "Formación de cristales (carbonatos, sulfatos) sobre la membrana por sobresaturación.",
+    "Respuesta normal": "Tipo específico de ensuciamiento causado por la precipitación química de sales inorgánicas (como carbonato de calcio, sulfato de calcio, sílice) sobre la membrana cuando su concentración excede el límite de solubilidad."
+  },
+  {
+    "N°": 124,
+    "Sección": "Desalinización",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Biofouling.",
+    "Respuesta super corta": "Crecimiento biológico en membrana.",
+    "Respuesta corta": "Formación de biopelícula bacteriana (slime) en la membrana; difícil de remover.",
+    "Respuesta normal": "Ensuciamiento biológico causado por la adherencia y crecimiento de microorganismos (bacterias, algas) en la superficie de la membrana, formando un biofilm que es muy resistente a la limpieza y reduce drásticamente el rendimiento."
+  },
+  {
+    "N°": 125,
+    "Sección": "Desalinización",
+    "Tema": "Pre-Tratamiento",
+    "Pregunta": "¿Qué es el SDI (Silt Density Index)?",
+    "Respuesta super corta": "Índice de potencial de ensuciamiento.",
+    "Respuesta corta": "Prueba que mide la capacidad del agua para ensuciar membranas; debe ser < 3 o 5.",
+    "Respuesta normal": "Índice de Densidad de Sedimentos. Ensayo empírico que mide la velocidad de bloqueo de un filtro de 0.45 µm. Predice el potencial de ensuciamiento por partículas coloidales en la RO. Garantía suele exigir SDI < 3."
+  },
+  {
+    "N°": 126,
+    "Sección": "Desalinización",
+    "Tema": "Pre-Tratamiento",
+    "Pregunta": "Defina Filtro de Cartucho.",
+    "Respuesta super corta": "Filtro de seguridad final.",
+    "Respuesta corta": "Filtro micrónico (ej. 5 µm) justo antes de la bomba de alta presión para proteger membranas.",
+    "Respuesta normal": "Filtros desechables de profundidad (generalmente 5 micras) ubicados justo antes de las bombas de alta presión. Actúan como última barrera de seguridad para proteger bombas y membranas de partículas accidentales."
+  },
+  {
+    "N°": 127,
+    "Sección": "Desalinización",
+    "Tema": "Químicos",
+    "Pregunta": "Defina Anti-incrustante.",
+    "Respuesta super corta": "Químico que previene cristales.",
+    "Respuesta corta": "Aditivo dosificado al agua para evitar la precipitación de sales (scaling) en la membrana.",
+    "Respuesta normal": "Producto químico (generalmente polímeros o fosfonatos) que se dosifica al agua de alimentación para interferir con el crecimiento de cristales, permitiendo operar con concentraciones de sales superiores a su límite de saturación sin precipitar."
+  },
+  {
+    "N°": 128,
+    "Sección": "Desalinización",
+    "Tema": "Químicos",
+    "Pregunta": "Defina Bisulfito de Sodio (Función decloración).",
+    "Respuesta super corta": "Químico que elimina cloro.",
+    "Respuesta corta": "Agente reductor usado para neutralizar el cloro libre antes de llegar a las membranas RO.",
+    "Respuesta normal": "Sal química (SBS) utilizada como agente reductor para eliminar (declorar) cualquier residuo de cloro libre en el agua antes de que entre a las membranas de poliamida, ya que el cloro las oxida y destruye irreversiblemente."
+  },
+  {
+    "N°": 129,
+    "Sección": "Desalinización",
+    "Tema": "Operación",
+    "Pregunta": "Defina Compactación de Membrana.",
+    "Respuesta super corta": "Deformación física por presión.",
+    "Respuesta corta": "Compresión física del material de la membrana bajo alta presión, reduciendo el flujo.",
+    "Respuesta normal": "Fenómeno físico donde la estructura polimérica de la membrana se comprime irreversiblemente debido a la alta presión de operación sostenida en el tiempo, resultando en una disminución permanente del flujo de permeado."
+  },
+  {
+    "N°": 130,
+    "Sección": "Desalinización",
+    "Tema": "Operación",
+    "Pregunta": "Defina Hidrólisis de Membrana.",
+    "Respuesta super corta": "Degradación química por pH.",
+    "Respuesta corta": "Ruptura de la estructura del polímero de la membrana debido a pH extremos (ácido o base).",
+    "Respuesta normal": "Reacción química (usualmente con acetato de celulosa, menos en poliamida) donde el agua rompe los enlaces del polímero de la membrana, especialmente a pH muy altos o muy bajos, degradando su capacidad de rechazo."
+  },
+  {
+    "N°": 131,
+    "Sección": "Desalinización",
+    "Tema": "Mantenimiento",
+    "Pregunta": "Defina CIP (Clean In Place).",
+    "Respuesta super corta": "Limpieza química in situ.",
+    "Respuesta corta": "Sistema de limpieza de membranas con químicos recirculados sin desmontarlas.",
+    "Respuesta normal": "Clean-In-Place. Procedimiento de limpieza química de las membranas realizado dentro de los mismos tubos de presión, mediante la recirculación de soluciones ácidas (para inorgánicos) y alcalinas (para orgánicos/bio) alternadas."
+  },
+  {
+    "N°": 132,
+    "Sección": "Desalinización",
+    "Tema": "Mantenimiento",
+    "Pregunta": "Defina Lavado por Desplazamiento (Flushing).",
+    "Respuesta super corta": "Lavado con agua permeada.",
+    "Respuesta corta": "Enjuague de las membranas con agua dulce al parar la planta para sacar la salmuera.",
+    "Respuesta normal": "Procedimiento que consiste en desplazar el agua salada concentrada dentro de los tubos de presión usando agua permeada o de baja salinidad al momento de detener la planta, para evitar incrustaciones y corrosión en reposo."
+  },
+  {
+    "N°": 133,
+    "Sección": "Energía y Equipos",
+    "Tema": "Equipos",
+    "Pregunta": "Defina Sistema de Recuperación de Energía (ERI).",
+    "Respuesta super corta": "Equipo que recupera presión de salmuera.",
+    "Respuesta corta": "Dispositivo isobárico que transfiere la presión del rechazo a la alimentación.",
+    "Respuesta normal": "Energy Recovery Inc (marca, pero usado genéricamente). Dispositivo de desplazamiento positivo rotatorio que transfiere la energía de presión de la salmuera concentrada directamente al agua de mar de entrada con altísima eficiencia (>95%)."
+  },
+  {
+    "N°": 134,
+    "Sección": "Energía y Equipos",
+    "Tema": "Equipos",
+    "Pregunta": "Defina Cámara Isobárica.",
+    "Respuesta super corta": "Principio del recuperador de energía.",
+    "Respuesta corta": "Cámara donde la salmuera y el agua de mar contactan para transferir presión.",
+    "Respuesta normal": "Principio de funcionamiento de los recuperadores tipo ERI o DWEER, donde la salmuera a alta presión empuja directamente (o a través de pistón) al agua de mar en una cámara a presión constante, con mínima mezcla."
+  },
+  {
+    "N°": 135,
+    "Sección": "Energía y Equipos",
+    "Tema": "Equipos",
+    "Pregunta": "Defina Turbina Pelton (en RO).",
+    "Respuesta super corta": "Recuperador de energía antiguo.",
+    "Respuesta corta": "Turbina acoplada a la bomba que aprovecha el chorro de salmuera para ayudar al motor.",
+    "Respuesta normal": "Tipo de turbina de impulso utilizada antiguamente como recuperador de energía. La salmuera a alta presión golpea los cangilones de la turbina, que está conectada al eje de la bomba de alta presión, reduciendo el consumo del motor."
+  },
+  {
+    "N°": 136,
+    "Sección": "Energía y Equipos",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Consumo Específico de Energía (kWh/m3).",
+    "Respuesta super corta": "Energía por metro cúbico producido.",
+    "Respuesta corta": "Cantidad de electricidad necesaria para producir 1 m3 de agua potable.",
+    "Respuesta normal": "Indicador de eficiencia energética. Mide cuántos kilowatt-hora de electricidad se consumen para producir un metro cúbico de agua permeada. En RO moderna de agua de mar está entre 3.0 y 4.0 kWh/m3."
+  },
+  {
+    "N°": 137,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Conceptos",
+    "Pregunta": "Defina Agua Permeada (o Producto).",
+    "Respuesta super corta": "Agua que atraviesa la membrana.",
+    "Respuesta corta": "Agua desalinizada de baja salinidad y pH ácido que sale de la RO.",
+    "Respuesta normal": "Es el agua que ha pasado a través de la membrana de ósmosis inversa. Es muy pura, con bajo contenido de sales (TDS < 500 ppm), pH ligeramente ácido y corrosiva, por lo que requiere post-tratamiento."
+  },
+  {
+    "N°": 138,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Procesos",
+    "Pregunta": "Defina Remineralización.",
+    "Respuesta super corta": "Añadir minerales al agua permeada.",
+    "Respuesta corta": "Proceso de agregar Ca, Mg y alcalinidad al agua desalada para hacerla estable y potable.",
+    "Respuesta normal": "Etapa de post-tratamiento donde se devuelve al agua permeada ciertos minerales (principalmente calcio y bicarbonatos) para ajustar su sabor, estabilidad química (corrosividad) y cumplir normas de salud."
+  },
+  {
+    "N°": 139,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Procesos",
+    "Pregunta": "Defina Estabilización del Agua.",
+    "Respuesta super corta": "Ajuste químico para evitar corrosión.",
+    "Respuesta corta": "Ajuste del pH y alcalinidad para que el agua no sea ni corrosiva ni incrustante.",
+    "Respuesta normal": "Proceso de acondicionamiento químico para asegurar que el agua no disuelva las tuberías (corrosión) ni precipite sarro (incrustación). Se busca un equilibrio químico, a menudo usando el Índice de Langelier."
+  },
+  {
+    "N°": 140,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Índice de Langelier (LSI).",
+    "Respuesta super corta": "Indicador de corrosión/incrustación.",
+    "Respuesta corta": "Índice que predice si el agua tiende a precipitar CaCO3 (positivo) o disolverlo (negativo).",
+    "Respuesta normal": "Langelier Saturation Index. Parámetro calculado que indica el grado de saturación del carbonato de calcio en el agua. LSI > 0 indica tendencia incrustante; LSI < 0 indica tendencia corrosiva (agresiva). Se busca LSI cercano a 0 o levemente positivo."
+  },
+  {
+    "N°": 141,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Equipos",
+    "Pregunta": "¿Qué es un Lecho de Calcita?",
+    "Respuesta super corta": "Filtro de piedras de CaCO3.",
+    "Respuesta corta": "Lecho de carbonato de calcio por donde pasa el permeado acidificado para remineralizarse.",
+    "Respuesta normal": "Filtro relleno con piedras de carbonato de calcio (calcita). El agua permeada (con CO2 ajustado) pasa por el lecho, disolviendo la calcita, lo que aumenta el pH, la dureza cálcica y la alcalinidad automáticamente."
+  },
+  {
+    "N°": 142,
+    "Sección": "Acondicionamiento del Producto",
+    "Tema": "Química",
+    "Pregunta": "¿Qué comportamiento tiene el Boro en la RO?",
+    "Respuesta super corta": "Difícil de remover a pH neutro.",
+    "Respuesta corta": "El boro pasa la membrana como ácido bórico; requiere pH alto para ser rechazado.",
+    "Respuesta normal": "El boro existe como ácido bórico (sin carga) a pH neutro y atraviesa la membrana. Para removerlo, se debe subir el pH (>9-10) para ionizarlo a borato, el cual sí es rechazado por la membrana."
+  },
+  {
+    "N°": 143,
+    "Sección": "Desinfección",
+    "Tema": "Conceptos",
+    "Pregunta": "Defina Desinfección vs Esterilización.",
+    "Respuesta super corta": "Desinfección: patógenos; Esterilización: todo.",
+    "Respuesta corta": "Desinfección elimina riesgo de enfermedad; esterilización elimina toda vida microbiana.",
+    "Respuesta normal": "La desinfección busca eliminar o inactivar los microorganismos patógenos para que el agua sea segura (no necesariamente 100% libre de vida). La esterilización es la destrucción absoluta de toda forma de vida microbiana (incluyendo esporas)."
+  },
+  {
+    "N°": 144,
+    "Sección": "Desinfección",
+    "Tema": "Cloración",
+    "Pregunta": "Defina Cloración.",
+    "Respuesta super corta": "Uso de cloro para desinfectar.",
+    "Respuesta corta": "Adición de cloro (gas o hipoclorito) al agua para matar patógenos y dejar residual.",
+    "Respuesta normal": "Método de desinfección más común que utiliza cloro o sus derivados. Oxida la materia celular de los microorganismos, destruyéndolos. Tiene la ventaja de dejar un efecto residual que protege el agua en la red."
+  },
+  {
+    "N°": 145,
+    "Sección": "Desinfección",
+    "Tema": "Cloración",
+    "Pregunta": "Defina Hipoclorito de Sodio/Calcio.",
+    "Respuesta super corta": "Formas líquida/sólida de cloro.",
+    "Respuesta corta": "Compuestos clorados (líquido NaOCl, sólido Ca(OCl)2) más seguros de manejar que el gas cloro.",
+    "Respuesta normal": "El hipoclorito de sodio es una solución líquida (lejía) y el de calcio es sólido (tabletas/granulado). Ambos liberan ion hipoclorito al disolverse en agua, actuando como desinfectantes, más seguros que el gas cloro."
+  },
+  {
+    "N°": 146,
+    "Sección": "Desinfección",
+    "Tema": "Química del Cloro",
+    "Pregunta": "Defina Ácido Hipocloroso (HOCl).",
+    "Respuesta super corta": "Forma más activa del cloro.",
+    "Respuesta corta": "Especie desinfectante fuerte formada cuando el cloro se disuelve en agua a pH bajo/neutro.",
+    "Respuesta normal": "Es la forma química más efectiva del cloro libre para la desinfección. Se forma al disolver cloro en agua. Su predominancia depende del pH (mayoritario a pH < 7.5). Penetra fácilmente las paredes celulares."
+  },
+  {
+    "N°": 147,
+    "Sección": "Desinfección",
+    "Tema": "Química del Cloro",
+    "Pregunta": "Defina Ion Hipoclorito (OCl-).",
+    "Respuesta super corta": "Forma menos activa del cloro.",
+    "Respuesta corta": "Especie desinfectante débil formada a pH alto (> 7.5).",
+    "Respuesta normal": "Es la forma disociada del ácido hipocloroso. Predomina a pH altos (> 7.5). Es un desinfectante mucho más débil (menos efectivo) que el ácido hipocloroso debido a su carga negativa que dificulta penetrar la célula."
+  },
+  {
+    "N°": 148,
+    "Sección": "Desinfección",
+    "Tema": "Química del Cloro",
+    "Pregunta": "Defina Cloro Residual Libre.",
+    "Respuesta super corta": "HOCl + OCl- disponible.",
+    "Respuesta corta": "Cloro disponible para desinfectar que no ha reaccionado con amoníaco ni materia orgánica.",
+    "Respuesta normal": "Suma de ácido hipocloroso (HOCl) e ion hipoclorito (OCl-) presentes en el agua. Es la forma más activa de cloro disponible para la desinfección inmediata y para combatir recontaminación."
+  },
+  {
+    "N°": 149,
+    "Sección": "Desinfección",
+    "Tema": "Química del Cloro",
+    "Pregunta": "Defina Cloro Residual Combinado (Cloraminas).",
+    "Respuesta super corta": "Cloro unido a amoníaco.",
+    "Respuesta corta": "Cloro reaccionado con nitrógeno amoniacal; desinfecta lento pero dura más.",
+    "Respuesta normal": "Cloro que ha reaccionado con amoníaco o compuestos nitrogenados formando cloraminas. Tiene un poder desinfectante mucho menor que el libre, pero es más estable y persistente en el tiempo."
+  },
+  {
+    "N°": 150,
+    "Sección": "Desinfección",
+    "Tema": "Química del Cloro",
+    "Pregunta": "Defina Cloro Total.",
+    "Respuesta super corta": "Suma de libre + combinado.",
+    "Respuesta corta": "Cantidad total de cloro presente en el agua (libre + combinado).",
+    "Respuesta normal": "Es la suma de la concentración de cloro residual libre y cloro residual combinado. Representa todo el cloro existente en el agua con capacidad oxidante."
+  },
+  {
+    "N°": 151,
+    "Sección": "Desinfección",
+    "Tema": "Demanda",
+    "Pregunta": "Defina Demanda de Cloro.",
+    "Respuesta super corta": "Cloro consumido por contaminantes.",
+    "Respuesta corta": "Diferencia entre el cloro aplicado y el cloro residual medido tras un tiempo.",
+    "Respuesta normal": "Cantidad de cloro consumida por reacciones con materia orgánica, inorgánica (hierro, manganeso) y microorganismos en el agua. Solo después de satisfacer esta demanda aparece el cloro residual."
+  },
+  {
+    "N°": 152,
+    "Sección": "Desinfección",
+    "Tema": "Proceso",
+    "Pregunta": "¿Qué es el Punto de Quiebre (Breakpoint)?",
+    "Respuesta super corta": "Punto donde aparece cloro libre.",
+    "Respuesta corta": "Dosis donde se ha oxidado todo el amoníaco y empieza a aumentar el cloro libre residual.",
+    "Respuesta normal": "Punto en la curva de cloración donde se ha satisfecho la demanda y se han oxidado todas las cloraminas. A partir de este punto, cualquier adición extra de cloro resulta directamente en un aumento proporcional de cloro libre residual."
+  },
+  {
+    "N°": 153,
+    "Sección": "Desinfección",
+    "Tema": "Cinética",
+    "Pregunta": "Defina Ley de Chick.",
+    "Respuesta super corta": "Modelo de muerte bacteriana.",
+    "Respuesta corta": "Ecuación que relaciona la supervivencia de bacterias con el tiempo de contacto (cinética de primer orden).",
+    "Respuesta normal": "Ley empírica que establece que, para una concentración constante de desinfectante, la tasa de muerte de los microorganismos es proporcional al número de organismos remanentes (muerte exponencial en el tiempo)."
+  },
+  {
+    "N°": 154,
+    "Sección": "Desinfección",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Parámetro Ct.",
+    "Respuesta super corta": "Concentración x Tiempo.",
+    "Respuesta corta": "Producto de la concentración de desinfectante residual (C) por el tiempo de contacto (t).",
+    "Respuesta normal": "Criterio fundamental de diseño en desinfección. Es el producto de la concentración residual del desinfectante (mg/L) por el tiempo de contacto efectivo (minutos). Valores específicos de Ct garantizan la inactivación de ciertos patógenos (ej. Giardia)."
+  },
+  {
+    "N°": 155,
+    "Sección": "Desinfección",
+    "Tema": "Parámetros",
+    "Pregunta": "Defina Tiempo de Contacto.",
+    "Respuesta super corta": "Tiempo de reacción del cloro.",
+    "Respuesta corta": "Tiempo desde que se aplica el cloro hasta que el agua llega al primer consumidor.",
+    "Respuesta normal": "Es el tiempo que transcurre entre la aplicación del desinfectante y el uso del agua (o el punto de medición residual). Es vital para asegurar que el desinfectante haya tenido tiempo suficiente para inactivar los patógenos."
+  },
+  {
+    "N°": 156,
+    "Sección": "Desinfección",
+    "Tema": "Subproductos",
+    "Pregunta": "Defina Subproductos de Desinfección (DBPs).",
+    "Respuesta super corta": "Compuestos tóxicos secundarios.",
+    "Respuesta corta": "Sustancias nocivas formadas cuando el cloro reacciona con materia orgánica natural.",
+    "Respuesta normal": "Compuestos químicos indeseados que se forman por la reacción entre los desinfectantes químicos y la materia orgánica natural presente en el agua. Algunos son cancerígenos (ej. THMs, HAAs)."
+  },
+  {
+    "N°": 157,
+    "Sección": "Desinfección",
+    "Tema": "Subproductos",
+    "Pregunta": "Defina Trihalometanos (THMs).",
+    "Respuesta super corta": "DBP cancerígeno común.",
+    "Respuesta corta": "Grupo de subproductos organoclorados (ej. cloroformo) regulados por ser cancerígenos.",
+    "Respuesta normal": "Son un tipo específico de subproductos de la desinfección (DBP) formados por la reacción del cloro con materia orgánica. Incluyen el cloroformo y son sospechosos de ser cancerígenos, por lo que su concentración está normada."
+  },
+  {
+    "N°": 158,
+    "Sección": "Desinfección",
+    "Tema": "Alternativas",
+    "Pregunta": "Defina Ozonización.",
+    "Respuesta super corta": "Desinfección con ozono (O3).",
+    "Respuesta corta": "Uso de gas ozono, un oxidante muy fuerte, para desinfectar y oxidar materia orgánica.",
+    "Respuesta normal": "Proceso de tratamiento que utiliza ozono (O3), un oxidante inestable y muy poderoso generado in situ. Es muy efectivo contra virus y quistes, y mejora sabor/olor, pero no deja residual protector en la red."
+  },
+  {
+    "N°": 159,
+    "Sección": "Desinfección",
+    "Tema": "Alternativas",
+    "Pregunta": "Defina Radiación UV (Desinfección).",
+    "Respuesta super corta": "Luz que daña ADN.",
+    "Respuesta corta": "Uso de luz ultravioleta para dañar el material genético de los patógenos e impedir su reproducción.",
+    "Respuesta normal": "Desinfección física que utiliza lámparas de luz ultravioleta (longitud de onda ~254 nm). La radiación penetra la pared celular y daña el ADN/ARN de los microorganismos, impidiendo su reproducción. No genera subproductos químicos ni residual."
+  },
+  {
+    "N°": 160,
+    "Sección": "Desinfección",
+    "Tema": "Procesos",
+    "Pregunta": "Defina Decloración.",
+    "Respuesta super corta": "Eliminación del cloro residual.",
+    "Respuesta corta": "Remoción del cloro sobrante (con carbón o bisulfito) para proteger membranas o vida acuática.",
+    "Respuesta normal": "Proceso de eliminación del cloro residual del agua, generalmente mediante agentes reductores (bisulfito de sodio) o carbón activado. Es crítico antes de unidades RO (protección membrana) o descarga a cuerpos naturales (toxicidad peces)."
+  },
+  {
+    "N°": 161,
+    "Sección": "Comportamiento Hidráulico",
+    "Tema": "Reactores",
+    "Pregunta": "Defina Flujo Pistón (Plug Flow).",
+    "Respuesta super corta": "Flujo sin mezcla longitudinal.",
+    "Respuesta corta": "El agua se mueve como un bloque uniforme; ideal para asegurar tiempo de contacto.",
+    "Respuesta normal": "Modelo hidráulico ideal donde las partículas de fluido entran y salen en el mismo orden, sin mezclarse longitudinalmente. Garantiza que todas las partículas tengan el mismo tiempo de residencia (ideal para desinfección en tuberías)."
+  },
+  {
+    "N°": 162,
+    "Sección": "Comportamiento Hidráulico",
+    "Tema": "Reactores",
+    "Pregunta": "Defina Mezcla Completa.",
+    "Respuesta super corta": "Homogeneización instantánea.",
+    "Respuesta corta": "El contenido del tanque es uniforme en todo punto; la concentración de salida iguala a la interna.",
+    "Respuesta normal": "Modelo hidráulico ideal donde el fluido entrante se dispersa inmediata y uniformemente en todo el volumen del tanque. La concentración es igual en cualquier punto del reactor."
+  },
+  {
+    "N°": 163,
+    "Sección": "Comportamiento Hidráulico",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Cortocircuito Hidráulico.",
+    "Respuesta super corta": "Paso rápido del agua.",
+    "Respuesta corta": "Cuando parte del agua sale del tanque en menos tiempo que el tiempo de retención teórico.",
+    "Respuesta normal": "Fenómeno en el que una parte del flujo atraviesa el tanque o reactor en un tiempo mucho menor al tiempo de retención teórico, reduciendo la eficiencia del tratamiento (ej. mala desinfección o sedimentación)."
+  },
+  {
+    "N°": 164,
+    "Sección": "Comportamiento Hidráulico",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Zona Muerta.",
+    "Respuesta super corta": "Área sin circulación.",
+    "Respuesta corta": "Volumen del tanque donde el agua está estancada y no participa en el flujo principal.",
+    "Respuesta normal": "Zonas dentro de un reactor o tanque donde no hay circulación efectiva o mezcla con el flujo principal. Reduce el volumen efectivo del tanque y el tiempo de retención real."
+  },
+  {
+    "N°": 165,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Definiciones",
+    "Pregunta": "Defina Lodo (Sludge).",
+    "Respuesta super corta": "Sólidos concentrados del tratamiento.",
+    "Respuesta corta": "Residuo semilíquido compuesto por sólidos removidos del agua y químicos agregados.",
+    "Respuesta normal": "Suspensión concentrada de sólidos en líquido producida durante el tratamiento del agua (ej. en sedimentadores). Contiene los contaminantes removidos y los productos químicos de tratamiento (flóculos)."
+  },
+  {
+    "N°": 166,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Procesos",
+    "Pregunta": "Diferencie Espesamiento de Deshidratación.",
+    "Respuesta super corta": "Espesamiento concentra; Deshidratación seca.",
+    "Respuesta corta": "Espesamiento aumenta sólidos al 2-5%; Deshidratación produce una torta sólida manejable.",
+    "Respuesta normal": "El espesamiento es una reducción de volumen por gravedad o flotación (aumenta la concentración de sólidos pero sigue siendo fluido). La deshidratación (filtros prensa, centrífugas) elimina agua para obtener un sólido 'seco' o torta manejable."
+  },
+  {
+    "N°": 167,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Fases",
+    "Pregunta": "Defina Sobrenadante.",
+    "Respuesta super corta": "Líquido claro sobre el lodo.",
+    "Respuesta corta": "Agua clarificada que queda en la parte superior después de que los sólidos sedimentan.",
+    "Respuesta normal": "Líquido clarificado que queda por encima de los sólidos depositados tras un proceso de sedimentación o espesamiento. Generalmente se recircula a la cabecera de la planta."
+  },
+  {
+    "N°": 168,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Producto Final",
+    "Pregunta": "Defina Torta de Lodo.",
+    "Respuesta super corta": "Lodo deshidratado sólido.",
+    "Respuesta corta": "Residuo sólido obtenido tras prensar o centrifugar el lodo, apto para transporte.",
+    "Respuesta normal": "Material sólido resultante de la deshidratación mecánica de los lodos. Tiene una consistencia similar a la tierra húmeda y puede ser paleada y transportada en camiones."
+  },
+  {
+    "N°": 169,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Problemas",
+    "Pregunta": "Defina Lixiviado.",
+    "Respuesta super corta": "Líquido que escurre de residuos.",
+    "Respuesta corta": "Líquido contaminado que se filtra a través de residuos sólidos acumulados.",
+    "Respuesta normal": "Líquido que se percola a través de residuos sólidos (ej. en un relleno sanitario o acopio de lodos), extrayendo solutos o partículas en suspensión, resultando en un fluido altamente contaminado."
+  },
+  {
+    "N°": 170,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Desalación",
+    "Pregunta": "Defina Salmuera de Rechazo.",
+    "Respuesta super corta": "Concentrado de sales de RO.",
+    "Respuesta corta": "Corriente de desecho de la desalación con el doble de salinidad que el mar.",
+    "Respuesta normal": "Es el subproducto líquido del proceso de desalinización. Contiene todas las sales rechazadas por la membrana concentradas en un volumen menor (aprox. la mitad del agua captada), resultando en una salinidad de ~70,000 ppm."
+  },
+  {
+    "N°": 171,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Disposición Marina",
+    "Pregunta": "Defina Emisario Submarino.",
+    "Respuesta super corta": "Tubería de descarga al mar.",
+    "Respuesta corta": "Conducción que transporta aguas residuales o salmuera mar adentro para su dispersión.",
+    "Respuesta normal": "Tubería instalada sobre o bajo el lecho marino destinada a transportar efluentes (aguas servidas tratadas o salmuera) desde la costa hasta un punto de descarga profundo y lejano para facilitar su dilución."
+  },
+  {
+    "N°": 172,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Disposición Marina",
+    "Pregunta": "Defina Difusor.",
+    "Respuesta super corta": "Tramo final con orificios.",
+    "Respuesta corta": "Parte final del emisario con múltiples puertos de salida para mejorar la mezcla inicial.",
+    "Respuesta normal": "Sección terminal del emisario submarino equipada con múltiples orificios o toberas. Su función es inyectar el efluente a alta velocidad en el cuerpo receptor para inducir turbulencia y maximizar la dilución inicial."
+  },
+  {
+    "N°": 173,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Disposición Marina",
+    "Pregunta": "Defina Zona de Dilución.",
+    "Respuesta super corta": "Área de mezcla inicial.",
+    "Respuesta corta": "Volumen de agua alrededor del difusor donde se reduce la concentración del vertido.",
+    "Respuesta normal": "Zona inmediata a la descarga donde ocurre la mezcla turbulenta entre el efluente y el agua receptora. En esta zona se permite que los contaminantes excedan los estándares de calidad ambiental hasta alcanzar la dilución requerida."
+  },
+  {
+    "N°": 174,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Disposición Marina",
+    "Pregunta": "Defina Pluma de Dispersión.",
+    "Respuesta super corta": "Nube de efluente en el mar.",
+    "Respuesta corta": "Forma que adopta el vertido al mezclarse y moverse con las corrientes marinas.",
+    "Respuesta normal": "Masa de agua residual o salmuera que se desplaza y diluye en el cuerpo receptor. Su comportamiento depende de la densidad (si flota o se hunde) y de las corrientes marinas."
+  },
+  {
+    "N°": 175,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Oceanografía",
+    "Pregunta": "Defina Termoclina.",
+    "Respuesta super corta": "Capa de cambio rápido de temperatura.",
+    "Respuesta corta": "Estrato en el mar o lago que separa aguas superficiales calientes de profundas frías.",
+    "Respuesta normal": "Capa dentro de un cuerpo de agua donde la temperatura cambia rápidamente con la profundidad. Actúa como una barrera física que impide la mezcla vertical entre la capa superficial mixta y las aguas profundas."
+  },
+  {
+    "N°": 176,
+    "Sección": "Gestión de Residuos",
+    "Tema": "Normativa",
+    "Pregunta": "Defina Zona de Protección Litoral.",
+    "Respuesta super corta": "Franja costera protegida.",
+    "Respuesta corta": "Área de mar adyacente a la costa definida en el DS 90 con estándares más estrictos.",
+    "Respuesta normal": "Ámbito territorial definido en el Decreto 90 que corresponde a la franja de playa, agua y fondo de mar adyacente a la costa. Las descargas dentro de esta zona tienen límites más estrictos que las descargas fuera de ella."
+  }
+]
